@@ -1,3 +1,5 @@
+# src: http://ruby.bastardsbook.com/chapters/strings/
+
 # Strings
 
 # 1. Write the following strings using interpolation:

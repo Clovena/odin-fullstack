@@ -1,3 +1,5 @@
+# src: http://ruby.bastardsbook.com/chapters/numbers/
+
 # Math practice
 
 12 - 1 * 4 #=> 8; order of operations is observed
