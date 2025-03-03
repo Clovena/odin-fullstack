@@ -44,3 +44,18 @@ puts "There were #{12*2/4} sheep and #{"three" + " sheepdogs"} out over at #{"Ch
 
 puts '#{2*2}score and #{"7"} years ago'
 #=> #{2*2}score and #{"7"} years ago; interpolation cannot be computed in single-quote strings.
+
+
+# src: http://ruby-for-beginners.rubymonstas.org/exercises/strings.html
+
+# 1. Combine strings "Learning " and "Ruby" using #prepend.
+puts "Ruby".prepend("Learning ")
+
+# 2. Convert "Learning Ruby" to "Lrnng Rb"
+puts "Learning Ruby".delete('a|e|i|o|u|y')
+
+
+# 3. Convert the string "1.23" into a number, 1.23.
+
+numStr = "1.23"
+puts numStr.to_f

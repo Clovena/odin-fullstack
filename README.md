@@ -18,12 +18,14 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ### Numbers
 
-- [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+- [Number Class (Bastards Book)](http://ruby.bastardsbook.com/chapters/numbers/)
+- [Number Class (Ruby Monstas)](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
 - [Number Methods](https://www.freecodecamp.org/news/ruby-number-methods-integer-and-float-methods-with-examples/)
 
 ### Strings 
 
-- [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+- [String Class (Bastards Book)](http://ruby.bastardsbook.com/chapters/strings/)
+- [String Class (Ruby Monstas)](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
 - [String Methods](https://www.freecodecamp.org/news/ruby-string-methods-explained-length-empty-and-other-built-in-methods/)
 
 ## Object Oriented Programming
