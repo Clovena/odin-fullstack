@@ -86,6 +86,7 @@ str.chop #=> "hello worl"
 str.chomp #=> "hello world"
 # #chomp removes the last character iff it is \n or \r
 
+15.to_s #=> "15" 
 "15".to_i #=> 15
 # #to_i also works on string classes, presuming that an integer can be obtained
 
