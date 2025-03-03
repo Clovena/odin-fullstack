@@ -49,6 +49,9 @@
 8.3.floor #=> 8
 6.7.floor #=> 6
 
+6.abs #=> 6
+-7.abs #=> 7
+
 6.next #=> 7
 -4.next #=> -3
 8.3.next #=> error, only works on integers
