@@ -10,6 +10,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Utilizing Interactive Ruby Console](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339)
 
 ## Basic Ruby
+
+- [Number Methods](https://www.freecodecamp.org/news/ruby-number-methods-integer-and-float-methods-with-examples/)
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
