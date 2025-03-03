@@ -42,7 +42,8 @@ puts "Hello\b\b\b went that way!"
 
 # Interpolation
 
-# Interpolation in Ruby requires double-quotes. This works similarly to Javascript's `` quotes.
+# Interpolation in Ruby requires double-quotes.
+# This works similarly to Javascript's `` quotes and the ${ } interpolation.
 name = "Odin"
 puts "Hello, #{name}" #=> "Hello, Odin"
 puts 'Hello, #{name}' #=> "Hello, #{name}"
