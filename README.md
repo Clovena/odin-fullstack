@@ -2,6 +2,9 @@
 A portfolio of lessons, practice, and exercises in The Odin Project's advanced curriculum. The full-stack Ruby on Rails path was selected. Projects will live in separate repos.
 
 # Ruby
+
+- [Comprehensive Style Guide](https://rubystyle.guide)
+
 ## Introduction
 
 - [A Brief History of Ruby](https://launchschool.com/books/ruby/read/introduction)
