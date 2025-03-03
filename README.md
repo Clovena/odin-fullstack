@@ -18,6 +18,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Number Methods](https://www.freecodecamp.org/news/ruby-number-methods-integer-and-float-methods-with-examples/)
 - [More Number Methods](http://ruby.bastardsbook.com/chapters/numbers/)
 - [String Methods](https://www.freecodecamp.org/news/ruby-string-methods-explained-length-empty-and-other-built-in-methods/)
+- [More String Methods](http://ruby.bastardsbook.com/chapters/strings/)
 
 ## Object Oriented Programming
 ## Files & Serialization
