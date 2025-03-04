@@ -8,6 +8,10 @@ arr[0] #=> 1
 arr[3] #=> 4
 arr[-1] #=> 5
 
+# Some array methods
+dupe_arr = [1, 2, 3, 1, 2, 3, 4]
+dupe_arr.uniq #=> [1, 2, 3, 4]
+
 # Hashes
 # Also known as dictionaries, hashes contain key:value pairs.
 dict = {
