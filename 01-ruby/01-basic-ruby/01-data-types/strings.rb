@@ -17,7 +17,7 @@
 # With two indices, separated by two dots: 
 "hello"[0..1] #=> "he"
 
-# With two indices, separated by a comma: 
+# With a start index and a length, separated by a comma: 
 "hello"[0, 4] #=> "hell"
 
 # Can also index from the end
