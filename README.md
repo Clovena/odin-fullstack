@@ -32,6 +32,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 - [Symbol Class (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
 
+### Booleans
+
+- [Booleans (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
