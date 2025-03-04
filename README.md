@@ -28,6 +28,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [String Class (Ruby Monstas)](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
 - [String Methods](https://www.freecodecamp.org/news/ruby-string-methods-explained-length-empty-and-other-built-in-methods/)
 
+### Symbols
+
+- [Symbol Class (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
