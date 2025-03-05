@@ -14,33 +14,38 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Basic Ruby
 
-- [Basic Building Blocks (LaunchSchool)](https://launchschool.com/books/ruby/read/basics)
+- [Basic Building Blocks](https://launchschool.com/books/ruby/read/basics)
 
 ### Numbers
 
 - [Number Class (Bastards Book)](http://ruby.bastardsbook.com/chapters/numbers/)
 - [Number Class (Ruby Monstas)](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-- [Number Methods (FreeCodeCamp)](https://www.freecodecamp.org/news/ruby-number-methods-integer-and-float-methods-with-examples/)
+- [Number Methods](https://www.freecodecamp.org/news/ruby-number-methods-integer-and-float-methods-with-examples/)
 
 ### Strings 
 
 - [String Class (Bastards Book)](http://ruby.bastardsbook.com/chapters/strings/)
 - [String Class (Ruby Monstas)](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-- [String Methods (FreeCodeCamp)](https://www.freecodecamp.org/news/ruby-string-methods-explained-length-empty-and-other-built-in-methods/)
+- [String Methods](https://www.freecodecamp.org/news/ruby-string-methods-explained-length-empty-and-other-built-in-methods/)
 
 ### Symbols
 
-- [Symbol Class (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+- [Symbol Class](https://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
 
 ### Booleans
 
-- [Booleans (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+- [Booleans](https://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ### Variables 
 
 - [Variables (LaunchSchool)](https://launchschool.com/books/ruby/read/variables)
 - [Variables (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/variables.html)
 - [Variables (Bastards Book)](http://ruby.bastardsbook.com/chapters/variables/)
+
+### I/O
+
+- [Ruby I/O](https://www.tutorialspoint.com/ruby/ruby_input_output.htm)
+- [`puts` vs `print` vs `p`](https://www.rubyguides.com/2018/10/puts-vs-print/)
 
 ## Object Oriented Programming
 ## Files & Serialization
