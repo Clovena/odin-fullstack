@@ -73,3 +73,31 @@ c.equal?(d) #=> false!
 
 # -1 could be interpreted as "less than;" 0 as "equal to;" and 1 as "greater than."
 # The spaceship is most commonly used in sorting operations. More to come there. 
+
+# Boolean operators can be strung together, naturally. 
+# && is the AND operator. Needs both sides to be true.
+# Can also use `and`
+
+if full_name == "Zachary Ricker" && 5 < 3
+  "Uh oh"
+elsif full_name == "Zachary Ricker" and 5 < 10
+  "Hello Zac!"
+else 
+  "Hello stranger!"
+end
+
+# || is the OR operator. Can also use `or`
+if full_name == "Zachary Ricker" || full_name == "Zac Ricker"
+  "Hello Zac!"
+else 
+  "Hello stranger!"
+end 
+
+# ! is the NOT operator. 
+if full_name != "Zachary Ricker" 
+  "Hello stranger!"
+elsif !(full_name == "Undefined")
+  "Hello acquantance!"
+else 
+  "Hello Zac!"
+end 
