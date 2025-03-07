@@ -47,6 +47,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Ruby I/O](https://www.tutorialspoint.com/ruby/ruby_input_output.htm)
 - [`puts` vs `print` vs `p`](https://www.rubyguides.com/2018/10/puts-vs-print/)
 
+### Logic
+- [Flow Control (LaunchSchool)](https://launchschool.com/books/ruby/read/flow_control)
+- [Flow Control (Trautman)](https://eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby

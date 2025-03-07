@@ -8,6 +8,9 @@ if full_name == "Zachary Ricker" # this evaluates to true
   "Hello Zac!"
 end
 
+# In addition to true and false, Ruby has a third boolean value called nil. 
+# nil is returned when a piece of code has nothing else to return. 
+# In statements where a boolean is required, nil behaves like false. 
 # The only things that evaluate to false are
 # false
 # nil
@@ -20,6 +23,11 @@ end
 # This will actually output "Hello" and return nil!
 
 # If statements can be condensed to one line if only one line of code is inside the block.
+
+if full_name == "Zachary Ricker" then "Hello Zac!" end
+# `then` is required in this type of code. 
+
+# The code to be evaluated can also be placed first, before the boolean operator.
 puts "Hello" if 1 < 2
 # No end needed!
 
@@ -92,6 +100,15 @@ if full_name == "Zachary Ricker" || full_name == "Zac Ricker"
 else 
   "Hello stranger!"
 end 
+
+# In Ruby, there is an operator ||= called the conditional assignment. 
+a ||= b
+# If a is undefined or falsey, then evaluate b and set a to the result. 
+# This is approximate shorthand for 
+a || a = b
+# and is NOT equivalent to
+a = a || b
+# due to the hierarchy of operators in Ruby. i.e. = gets evaluated first, then || 
 
 # ! is the NOT operator. 
 if full_name != "Zachary Ricker" 

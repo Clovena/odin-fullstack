@@ -13,9 +13,3 @@
 # and each storage event is given its own object_id.
 
 :symbol.object_id == :symbol.object_id #=> true
-
-
-# Booleans
-# In addition to true and false, Ruby has a third boolean value called nil. 
-# nil is returned when a piece of code has nothing else to return. 
-# In statements where a boolean is required, nil behaves like false. 
