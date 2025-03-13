@@ -51,6 +51,13 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Flow Control (LaunchSchool)](https://launchschool.com/books/ruby/read/flow_control)
 - [Flow Control (Trautman)](https://eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
 
+### Loops
+- [Loops](https://launchschool.com/books/ruby/read/loops_iterators)
+
+### Arrays
+- [Arrays (LaunchSchool)](https://launchschool.com/books/ruby/read/arrays)
+- [Arrays (RubyGuides)](https://www.rubyguides.com/2015/05/ruby-arrays/)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
