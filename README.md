@@ -58,6 +58,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Arrays (LaunchSchool)](https://launchschool.com/books/ruby/read/arrays)
 - [Arrays (RubyGuides)](https://www.rubyguides.com/2015/05/ruby-arrays/)
 
+### Hashes
+- [Hashes (LaunchSchool)](https://launchschool.com/books/ruby/read/hashes)
+- [Hashes (Trautman)](https://eriktrautman.com/posts/ruby-explained-hashes)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
