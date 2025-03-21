@@ -67,6 +67,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Methods (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/objects/methods.html)
 - [Writing Methods](https://ruby-for-beginners.rubymonstas.org/writing_methods.html)
 
+### Debugging
+- [Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/)
+- [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
