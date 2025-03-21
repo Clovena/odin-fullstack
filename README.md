@@ -68,7 +68,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Writing Methods](https://ruby-for-beginners.rubymonstas.org/writing_methods.html)
 
 ### Debugging
-- [Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/)
+- [Debugging Ruby](https://www.rubyguides.com/2015/07/ruby-debugging/)
+- [Debugging in VSCode](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 - [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)
 
 ## Object Oriented Programming
