@@ -62,6 +62,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Hashes (LaunchSchool)](https://launchschool.com/books/ruby/read/hashes)
 - [Hashes (Trautman)](https://eriktrautman.com/posts/ruby-explained-hashes)
 
+### Methods
+- [Methods (LaunchSchool)](https://launchschool.com/books/ruby/read/methods)
+- [Methods (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/objects/methods.html)
+- [Writing Methods](https://ruby-for-beginners.rubymonstas.org/writing_methods.html)
+
 ## Object Oriented Programming
 ## Files & Serialization
 ## Advanced Ruby
