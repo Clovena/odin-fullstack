@@ -70,6 +70,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Enumerable Methods (Trautman)](https://eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
 - [`#map`](https://www.rubyguides.com/2018/10/ruby-map-method/)
 - [`#reduce`](https://medium.com/@baweaver/reducing-enumerable-part-one-the-journey-begins-ddc1d4108490)
+- [Predicate Enumerables](https://www.rubyguides.com/2018/10/any-all-none-one/)
 
 ### Debugging
 - [Debugging Ruby](https://www.rubyguides.com/2015/07/ruby-debugging/)
