@@ -67,6 +67,9 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Methods (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/objects/methods.html)
 - [Writing Methods](https://ruby-for-beginners.rubymonstas.org/writing_methods.html)
 
+### Enumerable Methods
+- [Enumerables](https://docs.ruby-lang.org/en/3.3/Enumerable.html)
+
 ### Debugging
 - [Debugging Ruby](https://www.rubyguides.com/2015/07/ruby-debugging/)
 - [Debugging in VSCode](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
