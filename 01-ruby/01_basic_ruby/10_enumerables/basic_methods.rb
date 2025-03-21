@@ -112,6 +112,21 @@ end
 #   ["D", "e", "w", "e", "e", "s"]
 # ]
 
+# #map can also be done #with_index.
+friends.map.with_index do |f, i|
+  puts "#{f} is number #{i}."
+end
+
+# #with_index can be passed an argument to begin indexing with. 
+friends.map.with_index(1) do |f, i|
+  puts "#{f} is number #{i}."
+end
+
+# When a method called within the #map block does not require any arguments, 
+# it can be written in shorthand. 
+friends.map(&:upcase)
+# => ["OLIVIA", "IZZI", "JOSH", "BRANDON", "DEWEES"]
+
 
 # #select
 

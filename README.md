@@ -66,9 +66,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Methods (LaunchSchool)](https://launchschool.com/books/ruby/read/methods)
 - [Methods (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/objects/methods.html)
 - [Writing Methods](https://ruby-for-beginners.rubymonstas.org/writing_methods.html)
-
-### Enumerable Methods
-- [Enumerables](https://docs.ruby-lang.org/en/3.3/Enumerable.html)
+- [Enumerable Methods (Ruby Lang)](https://docs.ruby-lang.org/en/3.3/Enumerable.html)
+- [Enumerable Methods (Trautman)](https://eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
+- [`#map`](https://www.rubyguides.com/2018/10/ruby-map-method/)
+- [`#reduce`](https://medium.com/@baweaver/reducing-enumerable-part-one-the-journey-begins-ddc1d4108490)
 
 ### Debugging
 - [Debugging Ruby](https://www.rubyguides.com/2015/07/ruby-debugging/)
