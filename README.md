@@ -61,6 +61,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ### Hashes
 - [Hashes (LaunchSchool)](https://launchschool.com/books/ruby/read/hashes)
 - [Hashes (Trautman)](https://eriktrautman.com/posts/ruby-explained-hashes)
+- [Nested Hashes](https://web.archive.org/web/20220525215038/https://learn.co/lessons/nested-hash-iteration)
 
 ### Methods
 - [Methods (LaunchSchool)](https://launchschool.com/books/ruby/read/methods)
