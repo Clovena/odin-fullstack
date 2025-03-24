@@ -121,7 +121,7 @@ class Passenger
 end
 
 class Car 
-  def init(passengers)
+  def initialize(passengers)
     @passenger = passengers
   end
 end
@@ -173,7 +173,7 @@ puts fufi.say_hello # Fufi says hello!
 # To do such a thing, a method must be created to change the value.
 
 class GoodDog
-  def init(name)
+  def initialize(name)
     @name = name
   end
 
@@ -199,7 +199,7 @@ puts spotty.get_name # => Spotty
 # See below for proper syntax on the GoodDog class.
 
 class GoodDog
-  def init(name)
+  def initialize(name)
     @name = name
   end
 
@@ -233,7 +233,7 @@ class GoodDog
   # end
   attr_accessor :name # This single line does the job of all of the above!
 
-  def init(name)
+  def initialize(name)
     @name = name
   end
 
