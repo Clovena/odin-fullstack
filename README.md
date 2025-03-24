@@ -42,7 +42,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Variables (Ruby Monstas)](https://ruby-for-beginners.rubymonstas.org/variables.html)
 - [Variables (Bastards Book)](http://ruby.bastardsbook.com/chapters/variables/)
 
-### I/O
+### Input/Output
 
 - [Ruby I/O](https://www.tutorialspoint.com/ruby/ruby_input_output.htm)
 - [`puts` vs `print` vs `p`](https://www.rubyguides.com/2018/10/puts-vs-print/)
@@ -78,7 +78,9 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Debugging in VSCode](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 - [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)
 
-## Object Oriented Programming
+### Object Oriented Programming
+- [Object Oriented Programming](https://launchschool.com/books/oo_ruby)
+
 ## Files & Serialization
 ## Advanced Ruby
 ## A Bit of Computer Science
