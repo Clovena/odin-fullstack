@@ -3,20 +3,18 @@
 # OOP is a means of creating containers for data that can be changed
 # and manipulated without affecting the entire program.
 
+# Definitions
 
-## Encapsulation
-
+## Encapsulation:
 # Bundles data and related operations into a single entity, i.e. an object.
 # Hides functionality from the rest of the code base, protecting data.
 
 
-## Polymorphism
-
+## Polymorphism:
 # The ability for different types of data to respond to a common interface.
 
 
-## Inheritance
-
+## Inheritance:
 # The act of acquiring behaviors of another class. 
 # Allows for the creation of large superclasses containing behaviors with
 # large reusability, and then subclasses for more detailed behaviors.
@@ -31,7 +29,6 @@ end
 spotty = GoodDog.new
 # In technical terms, we have "instantiated" an object called spotty 
 # from the class `GoodDog`.
-
 
 # Defining modules
 
@@ -59,7 +56,7 @@ zac.speak("Hello world") # => Hello world
 # Initializing a new object 
 
 class GoodDog
-  def initialize
+  def initialize # name not optional. Must be called initialize.
     puts "This object has been initialized."
   end
 end
@@ -84,8 +81,7 @@ spotty = GoodDog.new("Spotty")
 # Now, spotty's @name variable is set to "Spotty"
 
 
-# Composition
-
+# Composition:
 # Relationship where an object - the container - contains
 # one of more objects of other classes as part of its state.
 
@@ -111,9 +107,7 @@ my_car.startup # => Engine starting...
 
 # Car contains an instance of Engine.
 
-
-# Aggregation 
-
+# Aggregation:
 # Relationship where an object container has a reference to other objects,
 # but those objects also exist independently of the container.
 
@@ -130,11 +124,12 @@ friends = [Passenger.new, Passenger.new]
 # Passenger can exist without Car
 my_car = Car.new(friends)
 
+# TL;DR:
 # Composition: The container *owns* the contained objects.
 # Aggregation: The container does not own the contained objects; they can exist independently.
 
 
-# More on Instance Methods
+# Instance Methods
 
 class GoodDog
   def initialize(name)
@@ -289,3 +284,86 @@ class PersonBio
 
 end
 
+
+# Class Methods & Variables
+
+# As implied, these are methods that can be called on the class itself.
+
+class GoodDog
+  def self.what_am_i
+    "I'm a GoodDog class!"
+  end
+end
+
+GoodDog.what_am_i # => I'm a GoodDog class!
+
+class GoodDog
+
+  @@dog_count = 0 
+  # This is a class variable, denoted with two at-signs.
+  # These capture information for an entire class.
+
+  def initialize
+    @@dog_count += 1
+  end
+
+  def self.number_of_dogs
+    @@dog_count
+  end
+
+end
+
+puts GoodDog.number_of_dogs # => 0
+spotty = GoodDog.new
+fufi = GoodDog.new
+
+puts GoodDog.number_of_dogs # => 2
+
+
+# Constants
+
+# Ruby explicitly defines constants with an uppercase first letter like Constant,
+# but style conventions suggest YELLING_SNAKE_CASE
+
+class GoodDog
+  DOG_YEARS = 7
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    self.name = name
+    self.age = age * DOG_YEARS
+  end
+
+end
+
+fufi = GoodDog.new("Fufi", 3)
+puts fufi.age # => 21
+
+
+# #to_s
+
+puts fufi #<GoodDog:0x00000001015f4a90>
+# The computation here involves #puts automatically calling #to_s
+# By default, #to_s returns the name of the object's class
+# and an encoding of the object id.
+
+# This behavior can be overwritten: 
+
+class GoodDog
+  DOG_YEARS = 7
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    self.name = name
+    self.age = age * DOG_YEARS
+  end
+
+  def to_s
+    "This dog's name is #{name} and it is #{age} in dog years."
+  end
+
+end
+
+spotty = GoodDog.new("Spotty", 4)
+puts spotty # => This dog's name is Spotty and it is 28 in dog years.
+# Voila!
