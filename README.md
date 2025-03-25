@@ -77,9 +77,13 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Debugging Ruby](https://www.rubyguides.com/2015/07/ruby-debugging/)
 - [Debugging in VSCode](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 - [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)
+- [Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/)
 
 ### Object Oriented Programming
 - [Object Oriented Programming](https://launchschool.com/books/oo_ruby)
+- [Classes](https://eriktrautman.com/posts/ruby-explained-classes)
+- [Inheritance and Scope](https://eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
+- [Object Relationships](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48)
 
 ## Files & Serialization
 ## Advanced Ruby
