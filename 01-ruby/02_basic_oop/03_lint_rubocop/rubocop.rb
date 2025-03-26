@@ -37,3 +37,27 @@ bundle exec rubocop -a
 # Where the -a flag indicates autocorrect.
 # The flag -A can also be used to force all [Correctable] offenses to be fixed, 
 # not just the "safe" ones. 
+
+
+# Additional Departments
+gem install rubocop-performance
+# This is an additional dept in rubocop that should generally be included in bundles
+# but *not* necessarily required. This is achieved like so: 
+
+# Gemfile
+gem 'rubocop-performance', require: false
+
+# Next, rubocop must load the new extension. 
+# This requires a .rubocop.yml file, which can be initialized with
+bundle exec rubocop --init
+# Then add the following line to the .yml file:
+require: rubocop-performance
+
+# Now, RuboCop will know to use the extension whenever `bundle exec rubocop` is run.
+
+### For more information on how to tailor RuboCop to specific needs, see
+# https://www.theodinproject.com/lessons/ruby-linting-and-rubocop#power-corrupts
+
+# A global rubocop yml file can be stored in ~/
+# and properties of project rubocop yml files can inherit behaviors from global. 
+inherit_from: ~/.rubocop.yml
