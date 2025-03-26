@@ -85,6 +85,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Inheritance and Scope](https://eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 - [Object Relationships](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48)
 
+### Project Management
+- [`require`](https://github.com/ericmathison/articles/blob/master/understanding-require-in-ruby.md)
+- [RubyGems Basics](https://guides.rubygems.org/rubygems-basics/)
+- [Getting Started with Bundler](https://bundler.io/guides/getting_started.html#what-is-bundler)
+
 ## Files & Serialization
 ## Advanced Ruby
 ## A Bit of Computer Science
