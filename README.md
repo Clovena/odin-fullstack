@@ -45,6 +45,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ### Input/Output
 
 - [Ruby I/O](https://www.tutorialspoint.com/ruby/ruby_input_output.htm)
+- [IO in Ruby](https://thoughtbot.com/blog/io-in-ruby)
 - [`puts` vs `print` vs `p`](https://www.rubyguides.com/2018/10/puts-vs-print/)
 
 ### Logic
@@ -92,6 +93,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Linting](https://en.wikipedia.org/wiki/Lint_(software))
 
 ## Files & Serialization
+
 ## Advanced Ruby
 ## A Bit of Computer Science
 ## Intermediate Git
