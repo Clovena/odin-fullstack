@@ -1,0 +1,20 @@
+# Serialization
+
+# Consider the Ruby object below.
+
+{
+  name: 'Zac',
+  address: [
+    '2450 Overlook Rd, Cleveland OH 44106',
+    '10111 Nanford Rd, Cleveland OH 44102',
+    '1297 W 104th St, Cleveland OH 44102'
+  ],
+  dob: {
+    D: 1,
+    M: 5,
+    Y: 1997
+  }
+}
+
+# See corresponding serialization.json and serialization.yml
+# for serialized versions of this Ruby object.
