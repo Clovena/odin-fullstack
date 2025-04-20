@@ -92,8 +92,6 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Getting Started with Bundler](https://bundler.io/guides/getting_started.html#what-is-bundler)
 - [Linting](https://en.wikipedia.org/wiki/Lint_(software))
 
-## Files & Serialization
-
 ## Advanced Ruby
 ## A Bit of Computer Science
 ## Intermediate Git
