@@ -4,6 +4,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 # Ruby
 
 - [Comprehensive Style Guide](https://rubystyle.guide)
+- [Rubocop Style Guide](https://github.com/rubocop/ruby-style-guide)
 
 ## Introduction
 
