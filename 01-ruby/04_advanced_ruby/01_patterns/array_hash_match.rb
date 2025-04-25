@@ -106,3 +106,78 @@ in 1, 2, 3, 4
   puts :match
 end
 # => match
+
+###
+# Hash Pattern Match
+###
+
+# Similar to hashes except:
+# Pattern matching only works for Symbol keys, NOT String keys.
+# Partial matching can be done without regard for additional k-v pairs.
+
+case { a: 'apple', b: 'banana' }
+in { a: 'aardvark', b: 'bat' }
+  puts :no_match
+in { a: 'apple', b: 'banana' }
+  puts :match
+end
+# => match
+
+# Variable assignment can be done here as well:
+case { a: 'apple', b: 'banana' }
+in { a: a, b: b }
+  puts a
+  puts b
+end
+# => apple
+# => banana
+
+# For some reason, this works too
+case { a: 'apple', b: 'banana' }
+in { a:, b: }
+  puts a
+  puts b
+end
+# => apple
+# => banana
+
+# And you can omit the brackets here as well:
+case { a: 'apple', b: 'banana' }
+in a:, b:
+  puts a
+  puts b
+end
+# => apple
+# => banana
+
+# To save multiple k-v pairs, use a double splat **
+case { a: 'ant', b: 'ball', c: 'cat' }
+in { a: 'ant', **tail }
+  p tail
+end
+# => { :b => 'ball', :c => 'cat' }
+
+# Important to recognize that hashes will match with subsets,
+# so guards are required to prevent that behavior.
+case { a: 'ant', b: 'ball' }
+in { a: 'ant' }
+  'this will match'
+in { a: 'ant', b: 'ball' }
+  'this will never be reached'
+end
+
+# To ensure an exact match, use **nil
+case { a: 'ant', b: 'ball' }
+in { a: 'ant', **nil }
+  puts :no_match
+in { a: 'ant', b: 'ball' }
+  puts :match
+end
+# => match
+
+# This can be visualized by using As:
+case { a: 'ant', b: 'ball' }
+in { a: 'ant' } => hash
+  p hash
+end
+# => { :a => 'ant', :b => 'ball' }
