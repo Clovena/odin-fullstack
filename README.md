@@ -94,6 +94,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Linting](https://en.wikipedia.org/wiki/Lint_(software))
 
 ## Advanced Ruby
+
+### Pattern Matching
+- [Pattern Matching (Ruby Docs)](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html)
+- [Pattern Matching (AppSignal)](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html)
+
 ## A Bit of Computer Science
 ## Intermediate Git
 ## Testing with RSpec
