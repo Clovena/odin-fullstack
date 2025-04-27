@@ -94,3 +94,61 @@ end
 transaction_statement do |t|
   '%0.2f' % t
 end
+
+# In all above examples, if nothing is passed to a yield
+# but the block expects one, the argument is simply assigned nil.
+
+def say_something
+  yield # No arguments are passed to yield
+end
+
+say_something do |word| # But the block expects one argument to be passed in
+  puts "And then I said: #{word}"
+end
+# => And then I said:
+
+# The same occurs for a mismatched number of arguments:
+def mad_libs
+  yield('cool', 'beans', 'burrito') # 3 arguments are passed to yield
+end
+
+mad_libs do |adjective, noun| # But the block only takes 2 parameters
+  puts "I said #{adjective} #{noun}!"
+end
+# => I said cool beans!
+
+# In hashes, the blocks must name a key and a value parameter,
+# if the yield asks for both.
+def awesome_method(&block)
+  hash = { a: 'apple', b: 'banana', c: 'cookie' }
+
+  hash.each(&block)
+end
+
+awesome_method { |key, value| puts "#{key}: #{value}" }
+# => a: apple
+# => b: banana
+# => c: cookie
+
+# Block Control
+
+# What happens if a method uses yield, but the caller doesn't include a block?
+def method
+  yield
+end
+
+method
+# LocalJumpError (whatever that means)
+
+# The method block_given? allows for a conditional check
+def maybe_block
+  puts 'block provided!' if block_given?
+  puts 'executed regardless'
+end
+
+maybe_block
+# => executed regardless
+
+maybe_block {} # this is a block but it is empty
+# => block provided!
+# => executed regardless
