@@ -100,6 +100,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Pattern Matching (AppSignal)](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html)
 
 ### Blocks
+- [Blocks, Procs, and Lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/)
+- [Using Lambdas](https://www.honeybadger.io/blog/using-lambdas-in-ruby/)
 
 ## A Bit of Computer Science
 ## Intermediate Git
