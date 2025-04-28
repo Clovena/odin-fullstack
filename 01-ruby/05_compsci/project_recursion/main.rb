@@ -2,5 +2,5 @@
 
 require_relative 'lib/recursion'
 
-Recursion.fibonacci(5)
-Recursion.merge_sort([1, 2, 3, 4, 5])
+puts Recursion.fibonacci(9)
+p Recursion.merge_sort([3, 5, 2, 4, 1])

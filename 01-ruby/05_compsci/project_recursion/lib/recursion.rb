@@ -3,10 +3,18 @@
 # Recursive methods in TOP assignment
 module Recursion
   def self.fibonacci(num)
-    puts num
+    return num if num <= 1
+
+    fibonacci(num - 1) + fibonacci(num - 2)
   end
 
-  def merge_sort(arr)
-    puts arr
+  def self.merge_sort(arr)
+    return arr if arr.length <= 1
+
+    a = merge_sort(arr.slice!(0, arr.length / 2))
+    b = merge_sort(arr)
+    new = []
+    new << (a.first <= b.first ? a.shift : b.shift) until a.empty? || b.empty?
+    new + a + b
   end
 end
