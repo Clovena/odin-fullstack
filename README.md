@@ -111,7 +111,6 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Space Complexity](https://dev.to/mwong068/big-o-space-complexity-lcm)
 - [Recursion and Space Complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc)
 
-## A Bit of Computer Science
 ## Intermediate Git
 ## Testing with RSpec
 ## Conclusion
