@@ -104,6 +104,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Blocks, Procs, and Lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/)
 - [Using Lambdas](https://www.honeybadger.io/blog/using-lambdas-in-ruby/)
 
+### Time Complexity
+- [Time Complexity for Ruby Devs](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/)
+- [Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/)
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+
 ## A Bit of Computer Science
 ## Intermediate Git
 ## Testing with RSpec
