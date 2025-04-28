@@ -55,6 +55,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ### Loops
 - [Loops](https://launchschool.com/books/ruby/read/loops_iterators)
+- [Recursion](http://ruby.bastardsbook.com/chapters/recursion/)
 
 ### Arrays
 - [Arrays (LaunchSchool)](https://launchschool.com/books/ruby/read/arrays)
