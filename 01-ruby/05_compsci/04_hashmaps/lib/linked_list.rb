@@ -10,16 +10,17 @@ class LinkedList
     @list = nil
   end
 
-  def to_s
-    print = ''
+  def format(index = nil)
+    str = index.nil? ? '' : "Bucket #{index}: "
     link = @list
-    while link
-      print << "{ :#{link.key} => #{link.value} } -> "
+    until link.nil?
+      str << "{ :#{link.key} => #{link.value} } -> "
       link = link.next_node
     end
-    print << 'nil'
-    print
+    str << 'nil'
+    puts str
   end
+  alias to_s format
 
   def empty?
     @list.nil?
@@ -78,27 +79,37 @@ class LinkedList
     popped
   end
 
-  # def contains?(value)
-  #   current = @list
-  #   until current.nil?
-  #     return true if current.value == value
+  def contains?(key)
+    current = @list
+    until current.nil?
+      return true if current.key == key
 
-  #     current = current.next_node
-  #   end
-  #   false
-  # end
+      current = current.next_node
+    end
+    false
+  end
 
-  # def find(value)
-  #   index = 0
-  #   current = @list
-  #   until current.nil?
-  #     return index if current.value == value
+  def find(key)
+    index = 0
+    current = @list
+    until current.nil?
+      return index if current.key == key
 
-  #     current = current.next_node
-  #     index += 1
-  #   end
-  #   nil
-  # end
+      current = current.next_node
+      index += 1
+    end
+    nil
+  end
+
+  def remove_at(index)
+    current = @list
+    (index - 1).times do
+      current = current.next_node
+    end
+    tail = current.next_node.next_node
+    current.next_node = tail
+    current
+  end
 
   def insert_at(key, value, index)
     current = @list
@@ -110,13 +121,14 @@ class LinkedList
     current
   end
 
-  def remove_at(index)
-    current = @list
-    (index - 1).times do
-      current = current.next_node
+  def replace(key, value)
+    index = find(key)
+    if index.zero?
+      prepend(key, value)
+      remove_at(1)
+    else
+      remove_at(index)
+      insert_at(key, value, index)
     end
-    tail = current.next_node.next_node
-    current.next_node = tail
-    current
   end
 end
