@@ -6,9 +6,16 @@ list = LinkedList.new
 
 list.append('dog')
 list.append('cat')
-list.append('parrot')
-list.append('hamster')
-list.append('snake')
+list.prepend('unicorn')
 list.append('turtle')
 
+puts 'Here is the whole list:'
+puts list
+puts
+puts 'Insert mid-list:'
+list.insert_at('pony', 2)
+puts list
+puts
+puts 'Remove mid-list:'
+list.remove_at(3)
 puts list
