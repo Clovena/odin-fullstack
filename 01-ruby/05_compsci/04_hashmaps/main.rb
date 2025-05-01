@@ -2,7 +2,12 @@
 
 require_relative 'lib/hashmap'
 
-map = Hashmap.new
+hashmap = Hashmap.new
 
-puts map
-p map
+hashmap.set(:a, 'red')
+hashmap.set(:i, 'purple')
+hashmap.set(:q, 'yellow')
+hashmap.set(:y, 'green')
+hashmap.set(:q, 'orange')
+
+puts hashmap
