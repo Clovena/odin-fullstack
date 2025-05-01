@@ -18,7 +18,17 @@ class Hashmap
     @buckets = Array.new(@capacity) { LinkedList.new }
   end
 
+  def hash_fibs(key)
+    hash_code = 0
+    key_str = "#{key}#{key.class}"
+    key_str.each_char do |char|
+      hash_code = (hash_code * GOLDEN_RATIO).to_i + char.ord
+    end
+    hash_code % @capacity
+  end
+
   def to_s
+    puts "Size: #{size}"
     puts "Capacity: #{@capacity}"
     @buckets.each_with_index do |bucket, index|
       bucket.format(index)
@@ -29,24 +39,36 @@ class Hashmap
   def size
     @buckets.reject(&:empty?).size
   end
+  alias length size
 
   def empty?
     size.zero?
   end
 
-  ### Methods to generate hashes, rehash, etc.
-  def hash_fibs(key)
-    hash_code = 0
-    key_str = "#{key}#{key.class}"
-    key_str.each_char do |char|
-      hash_code = (hash_code * GOLDEN_RATIO).to_i + char.ord
+  def keys
+    keys = []
+    @buckets.each do |list|
+      list.size.times do |index|
+        keys << list[index].keys[0] unless list[index].keys[0].nil?
+      end
     end
-    hash_code % @capacity
+    keys
   end
 
+  ### Methods to re-generate hashmap
   def rehash
-    # resize
     @capacity *= 2
+    previous = @buckets
+    @buckets = Array.new(@capacity) { LinkedList.new }
+    previous.each do |list|
+      list.size.times do |index|
+        set(list[index].keys[0], list[index].values[0])
+      end
+    end
+  end
+
+  def clear
+    @buckets = Array.new(@capacity) { LinkedList.new }
   end
 
   ### Methods to interact with hashmap elements
