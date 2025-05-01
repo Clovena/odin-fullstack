@@ -21,6 +21,10 @@ class LinkedList
     print
   end
 
+  def empty?
+    @list.nil?
+  end
+
   def append(key, value)
     if @list.nil?
       @list = Node.new(key, value)

@@ -4,7 +4,7 @@ require_relative 'node'
 require_relative 'linked_list'
 
 # Hashmap class
-class HashMap
+class Hashmap
   attr_accessor :capacity, :load_factor, :buckets
 
   def initialize(capacity = 16, load_factor = 0.75)
