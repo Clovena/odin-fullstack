@@ -20,4 +20,4 @@ hashmap.set(:grapes, 'purple')
 hashmap.set(:elderberry, 'violet')
 hashmap.set(:blackberry, 'black')
 
-p hashmap.keys
+p hashmap.entries
