@@ -1,0 +1,60 @@
+# A Deeper Look at Git
+
+# Changing History
+cd [into/current/folder]
+
+touch test{1..4}.md
+git add test1.md && git commit -m 'Create first file'
+git add test2.md && git commit -m 'Create send file'
+git add test3.md && git commit -m 'Create third file and create fourth file'
+
+
+# In the third commit, test4.md was forgotten, despite it being mentioned in the commit message.
+
+git add test4.md
+git commit --amend
+:wq
+
+# This "amends" the most recent commit by creating a new commit
+# with all the same data as the most recent commit, then deleting the prior commit.
+# This only works properly on commits that have not yet been pushed!
+
+
+# Changing multiple commits
+
+git log
+git rebase -i HEAD~2
+
+# Here we get the interactive tool to list all commits specified, in this case the past two.
+# The commit with a typo "send file" rather than "second file" can be changed to 'edit'
+# and then edited with git commit --amend
+
+# Once edits are done, the rebase must continue back to HEAD:
+
+git rebase --continue
+
+
+# Squashing commits
+
+git rebase -i HEAD~3
+
+pick e30ff48 Create first file
+squash 92aa6f3 Create second file
+# Let's squash the first commit into the second commit via squash
+pick 05e5413 Create third file and create fourth file
+
+git log
+# Now the first two commits appear together as one commit
+
+
+# Splitting commits
+
+# Perhaps we want to split the most recent commit involving test3 and test4.
+
+git reset HEAD~
+git add test3.md && git commit -m 'Create third file'
+git add test4.md && git commit -m 'Create fourth file'
+
+# This block of code moved the HEAD to one commit prior,
+# and it reset the staging area to what it was before that commit.
+# This allows for each file to be committed individually.
