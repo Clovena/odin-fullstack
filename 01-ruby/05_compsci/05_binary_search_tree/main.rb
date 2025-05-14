@@ -16,4 +16,8 @@ puts "Postorder: #{tree.postorder}"
 puts
 puts
 
-p tree.height(1)
+test = [1, 9, 23, 38]
+
+test.each do |elem|
+  puts "#{elem} is at height #{tree.height(elem)} and depth #{tree.depth(elem)}."
+end

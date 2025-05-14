@@ -34,6 +34,10 @@ class Tree
   end
 
   # Tree/node metadata & interaction
+  def max_depth
+    Math.log2(@array.size).floor
+  end
+
   def find(search, node = @root)
     return if node.nil?
 
@@ -43,15 +47,27 @@ class Tree
     find(search, node.right) if search > node.value
   end
 
-  def height(search, node = @root, level = 0)
+  def height(search, node = @root, level = max_depth)
+    return if node.nil?
+    return level if search == node.value
+
+    level -= 1
+    if search < node.value
+      height(search, node.left, level)
+    else
+      height(search, node.right, level)
+    end
+  end
+
+  def depth(search, node = @root, level = 0)
     return if node.nil?
     return level if search == node.value
 
     level += 1
     if search < node.value
-      height(search, node.left, level)
+      depth(search, node.left, level)
     else
-      height(search, node.right, level)
+      depth(search, node.right, level)
     end
   end
 
