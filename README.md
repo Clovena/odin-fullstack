@@ -111,9 +111,21 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Space Complexity](https://dev.to/mwong068/big-o-space-complexity-lcm)
 - [Recursion and Space Complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc)
 
-## Intermediate Git
 ## Testing with RSpec
 ## Conclusion
+
+# Git
+
+- [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- [Think like a Git](https://think-like-a-git.net/sections/about-this-site.html)
+- [`git-branch`](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+- [More Branching](https://learngitbranching.js.org/)
+- [Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+- [`git-reset`](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
+- [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
+- [Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
+- [Dangit, Git!?!](https://dangitgit.com/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 # Intermediate HTML & CSS
 
