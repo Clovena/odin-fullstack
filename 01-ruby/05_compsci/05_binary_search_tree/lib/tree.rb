@@ -34,17 +34,22 @@ class Tree
   end
 
   # Tree/node metadata & interaction
-  def max_depth
-    Math.log2(@array.size).floor
+  def depth(search, node = @root, level = 0)
+    return if node.nil?
+    return level if search == node.value
+
+    level += 1
+    if search < node.value
+      depth(search, node.left, level)
+    else
+      depth(search, node.right, level)
+    end
   end
 
-  def find(search, node = @root)
-    return if node.nil?
+  def max_depth(arr = @array)
+    return 0 if arr.nil?
 
-    return node if search == node.value
-
-    find(search, node.left) if search < node.value
-    find(search, node.right) if search > node.value
+    Math.log2(arr.size).floor
   end
 
   def height(search, node = @root, level = max_depth)
@@ -59,16 +64,26 @@ class Tree
     end
   end
 
-  def depth(search, node = @root, level = 0)
+  def balanced?(node = @root, result = [])
     return if node.nil?
-    return level if search == node.value
 
-    level += 1
-    if search < node.value
-      depth(search, node.left, level)
-    else
-      depth(search, node.right, level)
-    end
+    height_left = max_depth(preorder(node.left))
+    height_right = max_depth(preorder(node.right))
+    return false if (height_left - height_right).abs > 1
+
+    balanced?(node.left) if node.left
+    balanced?(node.right) if node.right
+
+    true
+  end
+
+  def find(search, node = @root)
+    return if node.nil?
+
+    return node if search == node.value
+
+    find(search, node.left) if search < node.value
+    find(search, node.right) if search > node.value
   end
 
   def find_parent(search, node = @root)
