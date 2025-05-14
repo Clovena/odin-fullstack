@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'node'
+
 # Methods for class Tree
 class Tree
   attr_accessor :array, :root
@@ -74,21 +76,40 @@ class Tree
   end
 
   # Remove existing nodes
-  def delete(search, node = find_parent(search))
-    return if node.nil?
+  def delete(search)
+    parent = find_parent(search)
+    return if parent.nil?
 
-    select_deletion(node.left || node.right)
+    select_deletion(search, parent)
   end
 
-  def select_deletion(node)
-    if node.num_children.zero?
-      nil
-    elsif node.num_children == 1
-      node.child
-    else
-      replace_value = node.inorder_successor.value
-      delete(replace_value) # WIP: TODO: This doesn't work
-      node.value = replace_value
+  def select_deletion(search, node)
+    # WIP: Still could be trimmed down.
+    # Running into problems when trying to modularize
+    # conditions of zero and one child.
+
+    if node.left && search == node.left.value
+      if node.left.num_children.zero?
+        node.left = nil
+      elsif node.left.num_children == 1
+        node.left = node.left.child
+      elsif node.left.num_children == 2
+        inorder_delete(node.left)
+      end
+    elsif node.right && search == node.right.value
+      if node.right.num_children.zero?
+        node.right = nil
+      elsif node.right.num_children == 1
+        node.right = node.right.child
+      elsif node.right.num_children == 2
+        inorder_delete(node.right)
+      end
     end
+  end
+
+  def inorder_delete(node)
+    replace_value = node.inorder_successor.value
+    delete(replace_value)
+    node.value = replace_value
   end
 end
