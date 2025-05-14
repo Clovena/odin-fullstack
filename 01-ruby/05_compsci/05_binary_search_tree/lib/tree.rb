@@ -69,12 +69,12 @@ class Tree
 
     height_left = max_depth(preorder(node.left))
     height_right = max_depth(preorder(node.right))
-    return false if (height_left - height_right).abs > 1
+    result << ((height_left - height_right).abs <= 1)
 
-    balanced?(node.left) if node.left
-    balanced?(node.right) if node.right
+    balanced?(node.left, result) if node.left
+    balanced?(node.right, result) if node.right
 
-    true
+    result.all?
   end
 
   def find(search, node = @root)
