@@ -13,7 +13,7 @@ class Tree
   end
 
   def build_tree(arr)
-    return nil if arr.empty?
+    return if arr.empty?
 
     midpt = (arr.size - 1) / 2
     root = Node.new(arr[midpt])
@@ -35,7 +35,7 @@ class Tree
 
   # Tree/node metadata & interaction
   def find(search, node = @root)
-    return nil if node.nil?
+    return if node.nil?
 
     return node if search == node.value
 
@@ -43,8 +43,20 @@ class Tree
     find(search, node.right) if search > node.value
   end
 
+  def height(search, node = @root, level = 0)
+    return if node.nil?
+    return level if search == node.value
+
+    level += 1
+    if search < node.value
+      height(search, node.left, level)
+    else
+      height(search, node.right, level)
+    end
+  end
+
   def find_parent(search, node = @root)
-    return nil if node.nil? || search == node.value
+    return if node.nil? || search == node.value
     return node if child_match?(search, node)
 
     if search < node.value
@@ -92,7 +104,7 @@ class Tree
       if node.left.num_children.zero?
         node.left = nil
       elsif node.left.num_children == 1
-        node.left = node.left.child
+        node.left = node.left.children[0]
       elsif node.left.num_children == 2
         inorder_delete(node.left)
       end
@@ -100,7 +112,7 @@ class Tree
       if node.right.num_children.zero?
         node.right = nil
       elsif node.right.num_children == 1
-        node.right = node.right.child
+        node.right = node.right.children[0]
       elsif node.right.num_children == 2
         inorder_delete(node.right)
       end
@@ -108,8 +120,66 @@ class Tree
   end
 
   def inorder_delete(node)
+    # Consider checking if depth is exactly one less than
+    # max depth. In this case, no need to go to the right first;
+    # the replace_value should simply be the leftmost
+    # (not the leftmost of the right child).
+    # May be able to implement after developing #depth.
     replace_value = node.inorder_successor.value
     delete(replace_value)
     node.value = replace_value
+  end
+
+  # Breadth-first traversal
+  def level_order
+    return if @root.nil?
+
+    queue = [@root]
+    result = []
+    until queue.empty?
+      node = queue.shift
+      block_given? ? yield(node) : result << node.value
+      queue.push(node.left) if node.left
+      queue.push(node.right) if node.right
+    end
+    result unless block_given?
+  end
+
+  # Depth-first traversal
+  def preorder(node = @root, result = [], &block)
+    return if node.nil?
+
+    result << node.value
+    yield(node) if block_given?
+
+    preorder(node.left, result, &block) if node.left
+    preorder(node.right, result, &block) if node.right
+
+    result if node == @root && !block_given?
+  end
+
+  def inorder(node = @root, result = [], &block)
+    return if node.nil?
+
+    inorder(node.left, result, &block) if node.left
+
+    result << node.value
+    yield(node) if block_given?
+
+    inorder(node.right, result, &block) if node.right
+
+    result if node == @root && !block_given?
+  end
+
+  def postorder(node = @root, result = [], &block)
+    return if node.nil?
+
+    postorder(node.left, result, &block) if node.left
+    postorder(node.right, result, &block) if node.right
+
+    result << node.value
+    yield(node) if block_given?
+
+    result if node == @root && !block_given?
   end
 end

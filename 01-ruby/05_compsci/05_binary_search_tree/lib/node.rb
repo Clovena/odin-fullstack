@@ -34,25 +34,16 @@ class Node
     @right.leftmost
   end
 
-  def child
+  def children
     return nil if nil?
-    return nil unless num_children == 1
 
-    @left || @right
+    arr = []
+    arr << @left if @left
+    arr << @right if @right
+    arr
   end
 
   def lowest?
     @left.nil? && @right.nil?
-  end
-
-  # Deletion methods depending on case
-  def overwrite(child)
-    if child.nil?
-      @value = nil
-    else
-      @value = child.value
-      @left = child.left
-      @right = child.right
-    end
   end
 end
