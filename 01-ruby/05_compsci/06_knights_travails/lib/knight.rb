@@ -1,40 +1,33 @@
 # frozen_string_literal: true
 
+require_relative 'board'
+
 # Knight class
 class Knight
-  MOVEMENT = [2, 1].freeze
+  include Board
+  include Move
 
-  attr_accessor :loc
+  MOVEMENT = [
+    [2, 1],
+    [1, 2],
+    [-1, 2],
+    [-2, 1],
+    [-2, -1],
+    [-1, -2],
+    [1, -2],
+    [2, -1]
+  ].freeze
 
-  def initialize(loc = [0, 0])
+  attr_accessor :loc, :history
+
+  def initialize(loc = [1, 1], parent = nil)
     @loc = loc
+    @parent = parent
+    @children = Board.available_squares(self)
+    # @history = []
   end
 
-  def moves # rubocop:disable Metrics/AbcSize
-    [
-      MOVEMENT,
-      [MOVEMENT[1], MOVEMENT[0]],
-      [-MOVEMENT[1], MOVEMENT[0]],
-      [-MOVEMENT[0], MOVEMENT[1]],
-      [-MOVEMENT[0], -MOVEMENT[1]],
-      [-MOVEMENT[1], -MOVEMENT[0]],
-      [MOVEMENT[1], -MOVEMENT[0]],
-      [MOVEMENT[0], -MOVEMENT[1]]
-    ]
-  end
-
-  def available_squares
-    squares = []
-    moves.each_index do |move|
-      coords = [@loc[0] + moves[move][0], @loc[1] + moves[move][1]]
-      squares << coords if valid_square?(coords)
-    end
-    squares
-  end
-
-  def valid_square?(coords)
-    return true if coords[0].between?(0, 7) && coords[1].between?(0, 7)
-
-    false
+  def moves
+    MOVEMENT
   end
 end
