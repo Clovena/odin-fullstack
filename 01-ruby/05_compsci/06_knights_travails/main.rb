@@ -5,7 +5,13 @@ require_relative 'lib/board'
 require_relative 'lib/move'
 require_relative 'lib/knight'
 
-n = Knight.new([3, 3])
+def knight_moves(start, goal)
+  path = Knight.new(start).build_path(goal)
+  puts "This takes #{path.size} moves:"
+  path.each { |coords| p coords }
+end
+
+# n = Knight.new([3, 3])
 # puts "The knight is on #{Board.coords_to_algebraic(n.loc)}."
 # puts "The last move was #{Board.coords_to_algebraic(n.loc, n)}."
 
@@ -16,4 +22,4 @@ n = Knight.new([3, 3])
 #   puts Board.coords_to_algebraic(coords)
 # end
 
-n.move_tree([8, 8])
+knight_moves([2, 2], [8, 6])

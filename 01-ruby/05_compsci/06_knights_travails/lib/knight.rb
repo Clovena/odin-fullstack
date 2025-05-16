@@ -30,23 +30,25 @@ class Knight
     MOVEMENT
   end
 
-  def move_tree(goal_coords)
-    # debugger
+  def build_path(goal_coords)
     queue = []
-    current = self
+    pointer = self
     move_hist = []
-    until current.loc == goal_coords
-      current.children.each do |child|
-        queue << Knight.new(child, current) unless move_hist.include?(current) || move_hist.include?(child)
+    until pointer.loc == goal_coords
+      pointer.children.each do |child|
+        queue << Knight.new(child, pointer) unless move_hist.include?(pointer) || move_hist.include?(child)
       end
-      move_hist << current
-      current = queue.shift
+      move_hist << pointer
+      pointer = queue.shift
     end
-    display_parent(current)
+    preorder(pointer)
   end
 
-  def display_parent(piece)
-    display_parent(piece.parent) unless piece.parent.nil?
-    p piece.loc
+  def preorder(piece, result = [])
+    return if piece.nil?
+
+    result.unshift(piece.loc)
+    preorder(piece.parent, result) if piece.parent
+    result
   end
 end
