@@ -112,6 +112,12 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Recursion and Space Complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc)
 
 ## Testing with RSpec
+
+- [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development)
+- [TDD is Dead, Long Live Testing](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
+- [The Value of TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/)
+- [Rspec Matchers](https://testing-for-beginners.rubymonstas.org/rspec/matchers.html)
+
 ## Conclusion
 
 # Git
