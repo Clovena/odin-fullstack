@@ -3,6 +3,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 # Ruby
 
+- [Ruby vs Python](https://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
 - [Comprehensive Style Guide](https://rubystyle.guide)
 - [Rubocop Style Guide](https://github.com/rubocop/ruby-style-guide)
 
@@ -117,8 +118,6 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [TDD is Dead, Long Live Testing](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
 - [The Value of TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/)
 - [Rspec Matchers](https://testing-for-beginners.rubymonstas.org/rspec/matchers.html)
-
-## Conclusion
 
 # Git
 
