@@ -146,6 +146,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 - [Relational Databases](https://computer.howstuffworks.com/question599.htm)
 - [Introduction to SQL](https://launchschool.com/books/sql/read/introduction)
+- [TOP's SQL Overview](https://www.theodinproject.com/lessons/databases-databases-and-sql#the-worlds-fastest-semi-complete-explanation-of-sql)
 - [SQL Harvard Lecture](https://cs50.harvard.edu/x/2024/weeks/7/)
 - [Database Design Playlist](https://www.youtube.com/watch?v=e7Pr1VgPK4w&list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID)
   - [SQL `self join`](https://www.youtube.com/watch?v=W0p8KP0o8g4)
