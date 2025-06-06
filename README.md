@@ -134,7 +134,20 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 # Intermediate HTML & CSS
 
+## Intermed HTML
+
+## Intermed CSS
+
+## Forms
+
+## Grid
+
 # Databases
+
+- [Relational Databases](https://computer.howstuffworks.com/question599.htm)
+- [Introduction to SQL](https://launchschool.com/books/sql/read/introduction)
+- [SQL Harvard Lecture](https://cs50.harvard.edu/x/2024/weeks/7/)
+- [SQL vs NoSQL](https://circleci.com/blog/sql-vs-nosql-databases/)
 
 # Ruby on Rails
 
