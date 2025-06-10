@@ -135,8 +135,17 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 # Intermediate HTML & CSS
 
 ## Intermed HTML
+- [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
+- [HTML Cheat Sheet](https://htmlcheatsheet.com/)
 
 ## Intermed CSS
+- [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+
+## Emmet
+- [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+- [HTML Abbreviations](https://docs.emmet.io/abbreviations/)
+- [CSS Abbreviations](https://docs.emmet.io/css-abbreviations/)
+- [Remove Tag](https://docs.emmet.io/actions/remove-tag/)
 
 ## Forms
 
