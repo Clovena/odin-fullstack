@@ -138,6 +138,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
 - [HTML Cheat Sheet](https://htmlcheatsheet.com/)
 
+### SVGs
+- [SVG Elements Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element)
+- [Google Material Icons](https://fonts.google.com/icons)
+- [Feather Icons](https://feathericons.com/)
+
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
