@@ -1,0 +1,167 @@
+Emmet Abbreviations
+
+1. Denote a single html tag with itself or alias
+
+p
+=>  <p></p>
+
+ul
+=>  <ul></ul>
+
+cap
+=>  <caption></caption>
+
+
+2. Denote id attribute with #
+
+#header
+=>  <div id="header"></div>
+
+p#overview
+=>  <p id="overview"></p>
+
+
+3. Denote class attribute with .
+.header
+=>  <div class="header"></div>
+
+p.bio
+=>  <p class="bio"></p>
+
+
+4. Denote children with >
+
+ul>li
+=>  <ul>
+      <li></li>
+    </ul>
+
+div>div>h1
+=>  <div>
+      <div>
+        <h1></h1>
+      </div>
+    </div>
+
+
+5. Denote siblings with +
+
+h1+h2+h3
+=>  <h1></h1>
+    <h2></h2>
+    <h3></h3>
+
+
+6. Escape a level of children with ^
+
+div+div>p>span^em
+=>  <div></div>
+    <div>
+      <p>
+        <span></span>
+        <em></em>
+      </p>
+    </div>
+
+div+div>p>span+em^^div
+=>  <div></div>
+    <div>
+      <p>
+        <span></span>
+        <em></em>
+      </p>
+    </div>
+    <div></div>
+
+
+7. Denote grouping with ()
+
+div>(header>ul>li>a)+(footer>p)
+=>  <div>
+      <header>
+        <ul>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
+      </header>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+
+
+8. Repeat items with multiplication *
+
+ul>li*5
+=>  <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+div>(ol>li*3)+(ul>li*3)
+=>  <div>
+      <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+
+9. Number items with $
+
+ul>li.item$*5
+=>  <ul>
+      <li class="item1"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+      <li class="item5"></li>
+    </ul>
+
+h$*4
+=>  <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+
+ul>li.item$$$*5
+=>  <ul>
+      <li class="item001"></li>
+      <li class="item002"></li>
+      <li class="item003"></li>
+      <li class="item004"></li>
+      <li class="item005"></li>
+    </ul>
+
+9a. Declare starting point with $@
+
+ul>li.item$@3*5
+=>  <ul>
+      <li class="item3"></li>
+      <li class="item4"></li>
+      <li class="item5"></li>
+      <li class="item6"></li>
+      <li class="item7"></li>
+    </ul>
+
+
+9b. Count backwards with $@-
+
+ul>li.item$@-*5
+=>  <ul>
+      <li class="item5"></li>
+      <li class="item4"></li>
+      <li class="item3"></li>
+      <li class="item2"></li>
+      <li class="item1"></li>
+    </ul>
