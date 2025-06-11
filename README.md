@@ -138,6 +138,13 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
 - [HTML Cheat Sheet](https://htmlcheatsheet.com/)
 
+### Tables
+- [HTML Table Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics)
+- [Advanced HTML Tables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility)
+- [HTML Tables Guide](https://css-tricks.com/complete-guide-table-element/)
+- [Styling Tables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables)
+- [Table Design UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
+
 ### SVGs
 - [SVG Elements Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element)
 - [Google Material Icons](https://fonts.google.com/icons)
