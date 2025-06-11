@@ -142,6 +142,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [SVG Elements Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element)
 - [Google Material Icons](https://fonts.google.com/icons)
 - [Feather Icons](https://feathericons.com/)
+- [SVG Path Editor](https://yqnn.github.io/svg-path-editor/)
 
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
