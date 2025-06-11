@@ -154,6 +154,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
+### CSS Resets
+- [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
+- [CSS Normalize and Reset](https://mattbrictson.com/blog/css-normalize-and-reset)
+- [Josh W Comeau's Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+
 ## Emmet
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 - [HTML Abbreviations](https://docs.emmet.io/abbreviations/)
