@@ -1,0 +1,61 @@
+### Text Styles
+
+## System Fonts
+
+As seen in Foundations, css is often written with a font stack.
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+Note that fonts are separated with a comma.
+
+## Web Fonts
+
+For fonts not necessarily available by default on users' devices,
+fonts must be imported from an online source - a font library or a site asset.
+
+Font libraries can be imported as a <link> in html...
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+as an @import in the <head> of html...
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+</style>
+
+or as an @import at the top of css.
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap')
+
+## Self Hosted Fonts
+
+Fonts downloaded as a file(s) can be included in a workspace as an asset.
+@font-face {
+  font-family: my-cool-font;
+  src: url(../fonts/the-font-file.woff);
+}
+
+h1 {
+  font-family: my-cool-font, sans-serif;
+}
+
+## More Text-Related Properties in css
+
+font-style:
+  italic (when used as a style choice; still use <em> for specific emphasis in text)
+
+letter-spacing:
+  Default is 0. Can use em/rem as options in both positive (0.5rem) and negative (-0.15em) directions.
+
+line-height:
+  Much like line spacing in a word processor, etc. Default is 1. 
+
+text-transform:
+  See https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform for details
+
+text-shadow:
+  See https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow for details
+
+text-overflow: ellipsis;
+  This is used in cases where text spans beyond its parent element. 
+  With this parameter, text will render with an ellipsis at the end of 
+  what fits within the parent element.

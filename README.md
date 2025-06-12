@@ -154,13 +154,19 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
+### Font Styles
+- [Web-Safe Fonts](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#web_safe_fonts)
+- [Webfont Generator (Font Squirrel)](https://www.fontsquirrel.com/tools/webfont-generator)
+- [`text-transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+- [`text-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
+- [Truncating with `ellipsis`](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/)
+
 ### CSS Units
 - [CSS Units](https://codyloyd.com/2021/css-units/)
 - [CSS Values and Units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
 - [Viewport Units](https://css-tricks.com/fun-viewport-units/)
 - [Using the Right CSS Units](https://www.youtube.com/watch?v=N5wpD9Ov_To)
 - [When to Use Each CSS Units](https://www.youtube.com/watch?v=fzZTvLmmTzM)
-
 
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
