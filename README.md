@@ -153,6 +153,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+- [CSS Tricks](https://css-tricks.com/almanac/properties/)
 
 ### Font Styles
 - [Typography](https://web.dev/learn/design/typography)
@@ -164,6 +165,15 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [`text-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 - [Truncating with `ellipsis`](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/)
 - [Webfont Generator (Font Squirrel)](https://www.fontsquirrel.com/tools/webfont-generator)
+
+### More CSS Properties
+- [`background`](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [`background` Shorthand](https://css-tricks.com/almanac/properties/b/background/)
+- [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+- [`box-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+- [`overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
 ### CSS Units
 - [CSS Units](https://codyloyd.com/2021/css-units/)
