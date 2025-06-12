@@ -1,0 +1,48 @@
+### Units
+
+## Absolute Units
+
+These are units that are the same in any context.
+The only real web-based absolute unit is `px`.
+`in` and `cm` can be used but are better in print contexts.
+
+## Relative Units
+
+These are units that can change based on their context.
+`em` and `rem` both refer to a font size. `rem` is preferred, generally.
+
+An element always has a font-size of 1em.
+This allows for calculations to be done based around font-size and em.
+If an element has a font-size of 16px, then 1em = 16px for that element
+(and all its children that inherit that font-size). 
+Then, if width is set to 4em, this is equivalent to 64px (16px * 4em = 64px).
+
+The difference between em and rem is that rem refers to 
+the root element font-size (either :root or html).
+Using rem sidesteps the necessity of keeping track of the parent size
+and simply refers to the highest order of size. 
+Then, there is no risk of size changing if lower-level context changes.
+
+Using rem is highly preferred, as it respects a user's font-size preferences.
+It is flexible and dynamic, and everything on the page is related in size.
+
+## Viewport Units
+
+`vh` and `vw` relate to the size of the viewport (screen).
+
+1vh is equal to 1% of the viewport height, 
+and 1vw is equal to 1% of the viewport width.
+
+## Line Height Units
+
+`lh` and `rlh` are relative units much like `em` and `rem`. 
+lh is relative to the height of the element itself,
+and rlh is relative to the height of the root element. 
+
+## Percentages
+
+Percentages can be used to denote a proportion of a parent element.
+Percentages are always relative to a value for the same attribute.
+That is, if a child element has a width of 50%, it will refer to
+the width of the parent element (and assume half the width of that parent).
+

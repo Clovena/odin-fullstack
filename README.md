@@ -154,6 +154,14 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Intermed CSS
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
+### CSS Units
+- [CSS Units](https://codyloyd.com/2021/css-units/)
+- [CSS Values and Units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
+- [Viewport Units](https://css-tricks.com/fun-viewport-units/)
+- [Using the Right CSS Units](https://www.youtube.com/watch?v=N5wpD9Ov_To)
+- [When to Use Each CSS Units](https://www.youtube.com/watch?v=fzZTvLmmTzM)
+
+
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
 - [CSS Normalize and Reset](https://mattbrictson.com/blog/css-normalize-and-reset)
