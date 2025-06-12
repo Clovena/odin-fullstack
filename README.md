@@ -155,11 +155,15 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
 ### Font Styles
+- [Typography](https://web.dev/learn/design/typography)
+- [Best Practices for Fonts](https://web.dev/articles/font-best-practices)
+- [Techniques to Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/)
+- [Modern Font Stacks](https://modernfontstacks.com/)
 - [Web-Safe Fonts](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#web_safe_fonts)
-- [Webfont Generator (Font Squirrel)](https://www.fontsquirrel.com/tools/webfont-generator)
 - [`text-transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
 - [`text-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 - [Truncating with `ellipsis`](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/)
+- [Webfont Generator (Font Squirrel)](https://www.fontsquirrel.com/tools/webfont-generator)
 
 ### CSS Units
 - [CSS Units](https://codyloyd.com/2021/css-units/)
