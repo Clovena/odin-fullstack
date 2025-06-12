@@ -1,15 +1,53 @@
 @font-face {
   font-family: 'racing_sans_oneregular';
-  src: url('racingsansone-regular-webfont.woff2') format('woff2'),
-    url('racingsansone-regular-webfont.woff') format('woff');
+  src: url('fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+    url('fonts/racingsansone-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'edge_displayregular';
-  src: url('edgedisplay-regular-webfont.woff2') format('woff2'),
-    url('edgedisplay-regular-webfont.woff') format('woff');
+  font-family: 'edge_display';
+  src: url('fonts/edgedisplay-regular-webfont.woff2') format('woff2'),
+    url('fonts/edgedisplay-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h1,
+h2 {
+  font-family: 'racing_sans_oneregular', serif;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+  font-family: 'edge_display', sans-serif;
 }
