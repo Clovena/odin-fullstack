@@ -1,0 +1,11 @@
+main div {
+  color: blue;
+}
+
+main > div {
+  color: orangered;
+}
+
+main > div > div {
+  color: green;
+}

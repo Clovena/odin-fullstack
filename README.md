@@ -182,6 +182,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Using the Right CSS Units](https://www.youtube.com/watch?v=N5wpD9Ov_To)
 - [When to Use Each CSS Units](https://www.youtube.com/watch?v=fzZTvLmmTzM)
 
+### CSS Selectors
+- [Combinators](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators)
+- [Pseudo-Classes and Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements)
+
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
 - [CSS Normalize and Reset](https://mattbrictson.com/blog/css-normalize-and-reset)

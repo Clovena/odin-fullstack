@@ -1,0 +1,48 @@
+### Advanced Selectors
+
+## Child Combinator
+
+To select direct children, use > as follows:
+main > div {
+  /* CSS here */
+}
+This is different than the below:
+main div {
+  /* CSS here */
+}
+The latter will operate on every single <div> within <main>
+whereas the former with the child combinator will only operate on
+<div>s that are immediate children of <main>.
+
+This comes into play with nested divs, for instance. 
+<main>
+  <div> # This div, as an immediate child of main, would be affected by the child combinator.
+    <div></div> # This div would not be affected when using the child combinator.
+  </div>
+</main>
+
+
+## Sibling Combinators
+
+To operate on elements that are immediately following certain other elements, 
+use the sibling combinator + as follows:
+
+/* Only the div with the classes "child group2" will get selected by this */
+.group1 + div {
+  /* Our cool CSS */
+}
+
+/* Only the div with the classes "child group3" will get selected by this */
+.group1 + div + div {
+  /* More cool CSS */
+}
+
+Sibling combinators only operate on one element; that is, the sibling 
+immediately after the original element, and nothing beyond it.
+
+The General Sibling Combinator can be used if *all* siblings are desired:
+
+/* All of .group1's div siblings - in this case the 2nd and 3rd .child divs, will get selected by this */
+.group1 ~ div {
+  /* Our cool CSS */
+}
