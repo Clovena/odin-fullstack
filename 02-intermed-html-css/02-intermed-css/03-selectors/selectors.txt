@@ -46,3 +46,118 @@ The General Sibling Combinator can be used if *all* siblings are desired:
 .group1 ~ div {
   /* Our cool CSS */
 }
+
+
+## Pseudo-Classes
+
+Pseudo-classes are prefixed with a single colon :
+and target elements that already exist in html.
+
+Pseudo-classes are often based on position, structure, state, or interaction
+of an html element. 
+
+Some examples of USER ACTION pseudo-classes: 
+
+:focus applies to an element selected by the user via cursor or keyboard
+
+:hover applies to an element underneath the user's cursor
+  - Good to indicate that an element can be interacted with
+
+:active applies to an element currently being clicked
+  - Good to indicate that an element has been clicked as tactile feedback
+
+:link applies to an element that links elsewhere and that are UNvisited
+:visited applies to a link that has been previously visited
+
+Some examples of STRUCTURAL pseudo-classes:
+
+:root applies to the very top level of a document.
+  - Generally, but not always, this is equivalent to the <html> element
+  - This is typically where rules are stated which apply everywhere,
+    e.g. `box-sizing: border-box;` or some global css variables.
+
+:first-child and :last-child apply to elements that are the first or last sibling
+
+:nth-child() applies to elements that follow the value in parens
+  - :nth-child(3)
+  - :nth-child(3n)
+  - :nth-child(3n + 3)
+  - :nth-child(odd)
+
+:empty applies to elements that have no children at all
+
+:only-child applies to elements with no siblings
+
+
+## Pseudo-elements
+
+Pseudo-elements are prefixed with two colons ::
+and target elements that don't normally exist in html.
+
+::marker applies to bullets or numbers in a <li>
+
+::first-letter and ::first-line apply to the first letter or first line
+
+::selection applies to highlighting when a user selects text on a page
+
+::before and ::after apply to whitespace surrounding elements
+
+
+## Attribute Selectors
+
+Attribute selectors are another way to access and manipulate
+specific attributes of an element. 
+
+Since attributes are already custom by the dev, they require their own
+syntax in css as well. 
+
+[attribute] applies to anything where the given attribute exists.
+
+selector[attribute] applies to any of the given selector that also contains the attribute.
+
+[attribute="value"] requires the existence of the attribute AND a match on the value.
+
+  [src] {
+    /* This will target any element that has a src attribute. */
+  }
+
+  img[src] {
+    /* This will only target img elements that have a src attribute. */
+  }
+
+  img[src="puppy.jpg"] {
+    /* This will target img elements with a src attribute that is exactly "puppy.jpg" */
+  }
+
+Partial matches can be used in the third case as well:
+
+[attribute^="value"] matches strings that start with the given value
+
+[attribute$="value"] matches strings that end with the given value
+
+[attribute*="value"] matches anywhere within the string
+
+[class^='aus'] {
+  /* Classes are attributes too!
+    This will target any class that begins with 'aus':
+    class='austria'
+    class='australia'
+  */
+}
+
+[src$='.jpg'] {
+  /* This will target any src attribute that ends in '.jpg':
+  src='puppy.jpg'
+  src='kitten.jpg'
+  */
+}
+
+[for*='ill'] {
+  /* This will target any for attribute that has 'ill' anywhere inside it:
+  for="bill"
+  for="jill"
+  for="silly"
+  for="ill"
+  */
+}
+
