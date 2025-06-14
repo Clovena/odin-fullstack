@@ -185,11 +185,13 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ### CSS Selectors
 - [Combinators](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators)
+- [Selectors](https://css-tricks.com/almanac/selectors/)
 - [Pseudo-Classes and Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements)
 - [Pseudo-Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [`:root` vs `html`](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html)
 - [Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 - [Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
