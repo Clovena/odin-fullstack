@@ -1,0 +1,79 @@
+### Custom Properties
+
+Custom properties allow a dev to reference a css value repeatedly.
+Sort of like a constant variable or custom function, where that custom thing
+is used over and over, and it behooves the dev to have the ability
+to only have to worry about one maintaining instance of that particular thing. 
+
+The syntax was seen in the functions notes:
+
+.error-modal {
+  --color-error-text: red;
+  --modal-border: 1px solid black;
+  --modal-font-size: calc(2rem + 5vw);
+  # These declare the custom property
+
+  color: var(--color-error-text);
+  border: var(--modal-border);
+  font-size: var(--modal-font-size);
+  # These access the custom property in var()
+}
+
+The var() function actually takes two parameters,
+the second being a fallback value.
+This fallback value can technically also be a custom property,
+where its var() access also requires a fallback value.
+This allows for a theoretically endless string of properties
+much like a font stack, though it's not advised.
+
+## Scope
+
+Custom properties have a scope and must be declared within the scope
+they intend to be used.
+
+Let's look at a corny TOP example.
+
+HTML:
+<div class="cool-div">
+  <p class="cool-paragraph">
+    Check out my cool, red background!
+  </p>
+</div>
+
+<p class="boring-paragraph">
+  I'm not in scope so I'm not cool.
+</p>
+
+CSS:
+.cool-div {
+  --main-bg: red;
+}
+
+.cool-paragraph {
+  background-color: var(--main-bg);
+}
+
+.boring-paragraph {
+  background-color: var(--main-bg);
+}
+
+Here, .boring-paragraph is not a child of .cool-div, 
+and because --main-bg is declared in .cool-div, 
+it will not assume the background-color declared in the custom property.
+
+A widely used solution to ensure global custom properties can be used globally
+is to declare them inside of :root. See below.
+
+:root {
+  --main-color: red;
+}
+
+.cool-paragraph {
+  color: var(--main-color);
+}
+
+.exciting-paragraph {
+  background-color: var(--main-color);
+}
+
+Here, both paragraphs are affected.

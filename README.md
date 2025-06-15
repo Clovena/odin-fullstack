@@ -176,6 +176,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 - [`overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
+### Custom Properties
+- [Custom Properties](https://css-tricks.com/a-complete-guide-to-custom-properties/)
+- [Using Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties#inheritance_of_custom_properties)
+
 ### Units
 - [CSS Units](https://codyloyd.com/2021/css-units/)
 - [CSS Values and Units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
