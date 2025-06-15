@@ -198,6 +198,12 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Difference between Position Values](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
 - [`fixed` vs `sticky`](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 
+### Functions in CSS
+- [CSS Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions)
+- [`min()`, `max()`, and `clamp()`](https://web.dev/articles/min-max-clamp)
+- [Use Cases of Functions](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/)
+- [More Use Cases](https://ishadeed.com/article/css-min-max-clamp/)
+
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)
 - [CSS Normalize and Reset](https://mattbrictson.com/blog/css-normalize-and-reset)

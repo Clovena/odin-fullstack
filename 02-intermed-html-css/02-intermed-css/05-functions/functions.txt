@@ -1,0 +1,44 @@
+### Functions
+
+Functions in css are just like functions in other programming languages.
+They are denoted with parens after the function name, like rgb().
+
+
+## calc()
+
+calc() is used to mix units and enter values that are based on other values.
+:root {
+--header: 3rem;
+--footer: 40px;
+--main: calc(100vh - calc(var(--header) + var(--footer)));
+}
+(fwiw: those three attributes that begin with -- are actually css variables. More to come.)
+
+
+## min()
+
+Naturally, min() takes the minimum of all values.
+#iconHolder {
+  width: min(150px, 100%);
+  height: min(150px, 100%);
+}
+This element will take up the space of 150px in both dimensions, if those 150px are available.
+If its parent is smaller than 150px, then it will take up 100% of the parent's size. 
+
+min() can also handle basic calculations without the use of calc(), e.g.
+width: min(80ch, 100vw - 2rem);
+
+
+## max()
+
+max() takes the maximum of two values.
+width: max(100px, 4em, 50%);
+
+
+## clamp()
+
+clamp() is good at making elements fluid and responsive. 
+It takes three arguments: the smallest value, the ideal value, and the largest value.
+h1 {
+  font-size: clamp(320px, 80vw, 60rem);
+}
