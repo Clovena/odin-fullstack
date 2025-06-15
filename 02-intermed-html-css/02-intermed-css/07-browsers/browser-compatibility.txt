@@ -1,0 +1,20 @@
+### Browser Compatibility
+
+In this day and age there are a number of browsers to consider
+when web developing.
+Chrome, Edge, Firefox, Safari, Brave, Opera... plus mobile OSes!
+
+Different browsers use different engines to display webpage info:
+Chrome uses Blink;
+Safari uses Webkit;
+
+"Can I Use" (https://caniuse.com/) is a good resource to check
+if certain new features in html/css/etc are compatible with various browsers.
+
+The two most popular mobile OSes are, of course, Android and iOS.
+
+On iOS, the only web browser that can be used is Safari (Webkit). 
+Even by downloading and using Firefox or Chrome, that's not 
+actually using those engines. They're still using Webkit.
+For more:
+https://adactio.com/journal/17428
