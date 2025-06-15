@@ -1,0 +1,26 @@
+### Frameworks
+
+Frameworks generate commonly used code to streamline and accelerate
+the development process in the early stages. These are essentially
+a bundle of css that can be used to jumpstart a project.
+
+Some popular examples include Bootstrap, Tailwind, Bulma, and Foundation.
+
+The disadvantage to frameworks is that when using them too early,
+it can stunt the learning process of vanilla css.
+They are very useful tools only after css as a plain language
+has been learned and mastered.
+
+Additionally, when using frameworks, it can be more difficult 
+to debug style issues if css fundamentals are weak.
+
+## Preprocessors
+
+Preprocessors are languages that can help write css more easily.
+They reduce code repetition and assist in saving time and codespace.
+
+Some popular examples include SASS, LESS, and Stylus.
+
+At this point, most of the helpful features that preprocessors provided
+are now implemented in base css, so the overhead may be too much
+for too little assistance from the preprocessor.

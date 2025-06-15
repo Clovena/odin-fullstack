@@ -213,6 +213,14 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [CSS Normalize and Reset](https://mattbrictson.com/blog/css-normalize-and-reset)
 - [Josh W Comeau's Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 
+### CSS Frameworks and Preprocessors
+- [Frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11)
+  - [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+  - [Tailwind Docs](https://tailwindcss.com/docs/installation/using-vite)
+- [Preprocessors](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/)
+  - [SASS Docs](https://sass-lang.com/documentation/)
+- [Preprocessor Disadvantages](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
+
 ## Emmet
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 - [HTML Abbreviations](https://docs.emmet.io/abbreviations/)
