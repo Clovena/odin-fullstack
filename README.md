@@ -176,14 +176,14 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 - [`overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
-### CSS Units
+### Units
 - [CSS Units](https://codyloyd.com/2021/css-units/)
 - [CSS Values and Units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
 - [Viewport Units](https://css-tricks.com/fun-viewport-units/)
 - [Using the Right CSS Units](https://www.youtube.com/watch?v=N5wpD9Ov_To)
 - [When to Use Each CSS Units](https://www.youtube.com/watch?v=fzZTvLmmTzM)
 
-### CSS Selectors
+### Selectors
 - [Combinators](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators)
 - [Selectors](https://css-tricks.com/almanac/selectors/)
 - [Pseudo-Classes and Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements)
@@ -192,6 +192,11 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 - [Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 - [Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
+
+### Positioning
+- [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [Difference between Position Values](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
+- [`fixed` vs `sticky`](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 
 ### CSS Resets
 - [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/)

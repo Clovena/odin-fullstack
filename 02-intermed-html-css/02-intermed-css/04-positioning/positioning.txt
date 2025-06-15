@@ -1,0 +1,22 @@
+### Positioning
+
+Static positioning is the default in css and is represented by position: static;
+The properties top, bottom, left, right do not affect the position of the element
+in a static context. 
+
+Relative positioning (position: relative;) is very similar to static,
+but top, bottom, left, right will displace the element relative to its standard position.
+
+Absolute positioning (position: absolute;) looks for an exact position on the screen 
+without disturbing the flow of any other elements around it. 
+This should be used in very specific circumstances, not to work through an entire page layout.
+
+Fixed positioning (position: fixed;) are also removed from the standard flow of a page, 
+but unlike absolute positioning which is based on the page itself, 
+fixed positioning is based on the viewport. 
+That is, a fixed element will stay in the exact same spot on the screen;
+an absolute element will stay in the exact same spot on the page.
+
+Sticky positioning (position: sticky;) is like a combination of static and fixed;
+while a sticky element is below the top of the viewport, it will behave static,
+but once it is scrolled past, it will become fixed into the viewport. 
