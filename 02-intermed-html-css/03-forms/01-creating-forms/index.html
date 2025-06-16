@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <!-- Text input -->
+      <label for="username">What's your name?</label>
+      <input type="text" id="username" />
+      <button class="greet-btn">Greet Me</button>
+    </div>
+    <h1 class="greeting"></h1>
+
+    <!-- Dropdown menu -->
+    <h2>Pick an entree:</h2>
+    <select name="Car">
+      <option value="burrito" selected>Burrito</option>
+      <option value="bowl">Burrito Bowl</option>
+      <option value="quesadilla">Quesadilla</option>
+    </select>
+
+    <!-- Grouped dropdown -->
+    <h2>Pick a protein:</h2>
+    <select name="protein">
+      <optgroup label="Meat">
+        <option value="chicken">Chicken</option>
+        <option value="barbacoa">Barbacoa</option>
+        <option value="chorizo">Chorizo</option>
+      </optgroup>
+      <optgroup label="Vegan">
+        <option value="beans">Beans</option>
+        <option value="tofu">Tofu</option>
+        <option value="lentils">Lentils</option>
+      </optgroup>
+    </select>
+
+    <!-- Radio buttons -->
+    <h2>Rice type:</h2>
+    <div>
+      <label for="white">White</label>
+      <input type="radio" name="rice-type" id="white" value="white" checked />
+    </div>
+    <div>
+      <label for="brown">Brown</label>
+      <input type="radio" name="rice-type" id="brown" value="brown" />
+    </div>
+    <div>
+      <label for="no-rice">No rice</label>
+      <input type="radio" name="rice-type" id="no-rice" value="no-rice" />
+    </div>
+
+    <!-- Checkboxes -->
+    <h2>Extra toppings:</h2>
+    <div>
+      <label for="guacamole">Guacamole</label>
+      <input type="checkbox" name="toppings" id="guacamole" value="guacamole" />
+    </div>
+    <div>
+      <label for="sour-cream">Sour Cream</label>
+      <input type="checkbox" name="toppings" id="sour-cream" value="sour-cream" />
+    </div>
+    <div>
+      <label for="cheese">Cheese</label>
+      <input type="checkbox" name="toppings" id="cheese" value="cheese" />
+    </div>
+
+    <!-- Buttons -->
+     <button type="button">This button doesn't do anything.</button>
+     <button type="submit">Submit Order</button>
+     <button type="reset">Clear Order</button>
+  </body>
+</html>

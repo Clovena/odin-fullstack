@@ -1,0 +1,135 @@
+### Creating Forms in HTML
+
+A form is a way for a user to manipulate the backend of a webpage.
+Forms provide data to the backend, and then code is used to handle that data.
+There are often multiple ways for a form to collect data and communicate it 
+to the backend, but it starts with the <form> element.
+
+<form> is a wrapper much like <div> and it must wrap around all child elements
+required to collect data from a user.
+
+The <form> element has two required attributes: action and method.
+action takes a url value that tells the form where to send data for processing. 
+method tells the browser which HTTP request to use - commonly either GET or POST.
+
+GET is used when something should be retrieved from the backend server, 
+and POST is used when something should be written to the server.
+
+<form action="example.com/path" method="post">
+</form>
+
+
+## Form Controls
+
+Form control elements are used to collect data.
+These are text boxes, dropdowns, checkboxes, and buttons.
+
+The input element is the most versatile. It accepts a type element
+which tells the browser what type of data to expect. 
+
+<form action="example.com/path" method="post">
+  <input type="text" />
+</form>
+
+This is useful for things like first and last names.
+However, inputs cannot display text on-screen since they have no closing tag.
+Therefore, labels are required to prompt users as to what belongs in the inputs.
+
+## Labels
+
+<form action="example.com/path" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name">
+</form>
+
+Here, in <label>, the for attribute links the label to the input.
+
+## Placeholders
+
+In addition to external labels, inputs can be given placeholders.
+
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" placeholder="Bob...">
+
+Here, "Bob..." will appear inside the input until a user value is provided.
+
+## Names
+
+Similarly to how labels communicate what values represent to the front-end,
+a `name` is used to communicate what values represent to the back-end.
+
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name">
+
+Once a form is submitted and received, it creates an object like this:
+
+"form": {
+    "age": "28",
+    "first_name": "Zac",
+    "last_name": "Ricker"
+  },
+
+Servers are not required to store values, either. Javascript can be used instead. 
+See example index.html and script.js for more.
+
+## Types
+
+Types allow inputs to be validated or formatted in special pre-determined ways.
+
+Common uses for validation purposes are number and date:
+  - Number will only accept numeric inputs.
+  - Date will only accept date inputs.
+
+Common uses for formatting purposes are email and password:
+  - Email will include @ in mobile keyboards for ease of inputting.
+  - Password will mask text after it's inputted.
+
+## Text Areas
+
+<textarea> can be used to provide an input box of text with multiple lines.
+Technically, these are not <input> elements but they still function similarly. 
+These require closing tags, unlike the <input> element. Therefore, display text can be included.
+
+<textarea>Some initial content</textarea>
+
+rows and cols are two attributes of a textarea element which allow control over the input box.
+
+<textarea rows="20" cols="60"></textarea>
+
+
+### Selection elements
+
+## Dropdowns
+
+Dropdowns allow users to select an option from a predetermined list.
+Dropdowns are created with the <select> element.
+<option> elements provide the list of options in the <select> element
+and require a value attribute.
+The text within the <option> is purely for display, so long as a value attribute is provided.
+If no value attribute is declared, the text within is used as the value.
+The `selected` attribute can also be used for a default value.
+
+A list of options can be grouped with <optgroup>. These take a label attribute
+in order to delineate the different groups in the list.
+
+
+## Radio buttons
+
+<type> elements can be set to "radio" to create a set of radio buttons.
+The `checked` attribute can be used to set a default.
+
+
+## Checkboxes
+
+<input> can be given the type value of "checkbox"
+with an optional default option given the `checked` attribute.
+
+
+## Buttons 
+
+Buttons are created directly with a <button> element.
+They can be of type button, reset, or submit. 
+A type="submit" button will always try to make an HTTP request
+and send data back to a server.
+Therefore, type should always be specified especially when
+a button is designed to do something other than submitting an HTTP request.
