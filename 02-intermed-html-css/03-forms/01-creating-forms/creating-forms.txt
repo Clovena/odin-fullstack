@@ -133,3 +133,15 @@ A type="submit" button will always try to make an HTTP request
 and send data back to a server.
 Therefore, type should always be specified especially when
 a button is designed to do something other than submitting an HTTP request.
+
+
+## Organization
+
+The <fieldset> element is useful in organizing form elements
+to avoid overwhelming the user. 
+
+The <legend> element is useful in labeling a <fieldset>.
+
+A common use-case for these elements is using a fieldset
+to group radio buttons and using a legend to communicate 
+what each of the options is ultimately for.
