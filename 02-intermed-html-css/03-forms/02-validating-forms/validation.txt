@@ -1,0 +1,80 @@
+### Form Validation
+
+There are certain guardrails and stipulations that can be added
+to form elements to ensure that only the proper data is being
+inputted and read into the backend server. 
+
+
+## Required
+
+The `required` attribute was demonstrated in 01-creating-forms.
+This forces input elements to be given a value. 
+
+Common practice is to include a * in the input label 
+and ideally declare at the top of the form that 
+required fields are denoted by *
+
+
+## Text Length
+
+The `minlength` attribute is available to specify 
+a minimum length of an input or textarea.
+
+`maxlength` does the same but declares a maximum.
+
+These two can be combined to restrict inputs in both directions.
+
+
+## Number Ranges
+
+Similar to above for text, numbers can be constrained
+with `min` and `max`.
+
+
+## Pattern Validation
+
+The `pattern` attribute can be set to a regular expression
+(regex) to ensure that the input matches the pattern of the regex.
+
+Placeholders are commonly used in conjunction with `pattern`
+to demonstrate what the input is looking for.
+
+Some input types automatically validate based on a pattern.
+`type="email"` requires the input to be a well-formed email
+without the use of `pattern`.
+
+`type="url"` requires a website to be inputted.
+
+
+## Styling
+
+Form elements can be targeted in css based on whether
+they passed a validation or not by using
+`:valid` and `:invalid` pseudo-classes.
+
+For example:
+
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+
+## Conclusion
+
+It is good practice to implement validations on the front end
+in order to improve user experience and understanding.
+
+In addition to these validation measures, it is important
+to also implement back-end validations 
+to further ensure values fit all criteria required.

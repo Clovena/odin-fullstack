@@ -230,6 +230,7 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Forms
 - [Intro to Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#introductory_guides)
 - [Guide to HTML Forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
+- [Learn Forms](https://web.dev/learn/forms/)
 - [Form Controls](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#the_different_form_controls)
 
 ### Form Styling
@@ -237,7 +238,17 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Custom Checkbox Styling](https://moderncss.dev/pure-css-custom-checkbox-style/)
 - [Buttons Best Practices](https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php)
 - [Form Accent Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+- [Improving UX in Forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/)
 - [Forms and Mobile UX](https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/)
+
+### Form Validation
+- [Form Validation Design](https://www.nngroup.com/articles/errors-forms-design-guidelines/)
+
+#### Regular Expressions
+- [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+- [Learn Regex](https://www.sitepoint.com/learn-regex/)
+- [Demystifying Regex](https://www.sitepoint.com/demystifying-regex-with-practical-examples/)
+- [Regex Cheat Sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
 
 ## Grid
 
