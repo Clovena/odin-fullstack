@@ -253,6 +253,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Grid
 - [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
 - [Flex vs Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/)
+- [Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Inspecting Grid Elements](https://developer.chrome.com/docs/devtools/css/grid/)
 
 # Databases
 
