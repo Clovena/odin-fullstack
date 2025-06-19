@@ -231,6 +231,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Intro to Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#introductory_guides)
 - [Guide to HTML Forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 - [Form Controls](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#the_different_form_controls)
+
+### Form Styling
 - [Form Styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#form_styling_tutorials)
 - [Custom Checkbox Styling](https://moderncss.dev/pure-css-custom-checkbox-style/)
 - [Buttons Best Practices](https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php)
