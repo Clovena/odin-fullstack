@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="./a01-style.css" rel="stylesheet" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+    <form action="/my-handling-form-page" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user-name" />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user-email" />
+      </p>
+      <p>
+        <label for="message">Message:</label>
+        <textarea id="message" name="user-message"></textarea>
+      </p>
+      <p class="button">
+        <button type="submit">Submit your message</button>
+      </p>
+    </form>
+  </body>
+</html>
