@@ -233,7 +233,9 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Form Controls](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#the_different_form_controls)
 - [Form Styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms#form_styling_tutorials)
 - [Custom Checkbox Styling](https://moderncss.dev/pure-css-custom-checkbox-style/)
+- [Buttons Best Practices](https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php)
 - [Form Accent Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+- [Forms and Mobile UX](https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/)
 
 ## Grid
 
