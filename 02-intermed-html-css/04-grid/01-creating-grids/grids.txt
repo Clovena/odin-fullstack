@@ -1,0 +1,77 @@
+### Grids
+
+A grid is another way to lay out elements on a page. 
+
+To create a grid: 
+
+.container {
+  display: grid;
+}
+
+Now, all elements within .container will become grid items
+automatically - no individual assignment necessary. 
+
+However, this will only apply for direct descendants. 
+If children of a grid display also have children, 
+those grand-children will not be grid items. e.g:
+
+<div class="container">
+  <div>Item 1</div>
+  <div>Item 2
+    <p>I am not a grid item!</p>
+  </div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+</div>
+
+Of course, the <div> that says Item 2 could also be declared
+as a grid, causing a nesting effect and allowing that <p> 
+to also be a grid item. 
+
+
+## Rows and Columns
+
+To denote rows and columns in a grid, the css attributes
+`grid-template-rows` and `grid-template-columns` are used.
+The number of arguments provided indicates the number of rows/cols,
+and the values themselves indicate the size of the rows/cols.
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px; # Two columns, both of size 50px
+  grid-template-rows: 50px 50px; # Two rows, both of size 50px
+}
+
+Alternatively, `grid-template` can be used as shorthand, 
+where the syntax is [rows] / [cols] as below.
+
+.container {
+  display: grid;
+  grid-template: 50px 50px / 50px 50px 50px;
+}
+
+
+## Implicit Grid
+
+If there are more elements than spaces declared in the grid template,
+grid items are automatically placed implicitly, row-wise.
+
+To ensure automatically generated rows fit a desired size:
+grid-auto-rows: 50px;
+
+Or, if it's desired to overflow column-wise (unlikely):
+grid-auto-flow: column;
+grid-auto-columns: 50px;
+
+Both of the above must be used in conjunction
+in order to set the overflow direction and the overflow size.
+
+
+## Gap
+
+The distance between grid items can be set like so:
+row-gap:
+column-gap:
+
+Or in shorthand:
+gap: [row] [col];
