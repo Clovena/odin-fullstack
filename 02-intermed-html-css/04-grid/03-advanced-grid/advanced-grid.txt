@@ -1,0 +1,64 @@
+### Advanced Grid Functions
+
+## Min and Max
+
+We covered min() and max() earlier, but it's useful to know that
+these two functions can be used in grid-template properties.
+
+Grid has another function, minmax(), used specifically in grids.
+It takes in two arguments: the minimum track size and the maximum track size.
+As tracks are resizing between the two parameters, they will by default
+stretch to fill the entire container (until the max is reached). 
+
+clamp() was covered earlier as well:
+clamp([min-size], [ideal-size], [max-size])
+
+It is typical to use a dynamic value for the ideal-size,
+and static values for the min- and max-size.
+This is not a hard and fast rule, however.
+
+
+## Repeat
+
+The repeat() function can be used, particularly in
+grid-template properties, to make template definitions
+a bit less tedious. e.g.:
+
+grid-template-rows: 150px 150px 150px 150px 150px 150px;
+can be rewritten as 
+grid-template-rows: repeat(6, 150px);
+
+repeat() can be given special arguments in the FIRST parameter:
+auto-fit and auto-fill both return the largest possible positive integer
+without the grid items overflowing their container. 
+
+This creates quasi-wrapping behavior when the container size is changed.
+
+The difference between auto-fit and auto-fill is thus:
+Consider a container with only a very few number of items. 
+When the container is expanded to a size where another item
+*could* fit, but there are none left, the difference is noticed.
+- auto-fit will keep the grid items at their max size.
+- auto-fill will snap the grid items to their min size
+  each time a new item *could* be added.
+
+
+## Fractional Units
+
+The fr unit definition can be use for dynamic measurements. 
+fr distributes the space remaining in the grid.
+Each unit definition is calculated as the value given to itself
+divided by the sum of values given to all fr units. e.g.:
+
+grid-template-columns: 400px 1fr 2fr 1fr 1fr;
+
+Here, the columns defined with fr units will be calculated as
+a proportion of the 5 total fractional units defined. 
+
+Thus, this translates to
+
+grid-template-columns: 400px [1/5 of remaining] [2/5 of remaining] [1/5 of remaining]  [1/5 of remaining];
+
+Using `fr` in this index.html example allows all ten grid items
+to change size depending on the changing size of the container.
+

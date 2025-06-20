@@ -1,0 +1,47 @@
+.grid-container {
+  resize: both;
+  /* This property allows the user to resize the container
+  by dragging the familiar icon in the bottom right.
+  Both indicates the ability to resize both the width and height. */
+
+  overflow: auto;
+  /* This property enables scrolling if the container is resized */
+  display: grid;
+  gap: 4px;
+  padding: 4px;
+  border: 2px solid grey;
+  background-color: skyblue;
+
+  /* grid-template-rows: 150px 150px; */
+  /* grid-template-rows: repeat(2, 150px); */
+  /* grid-template-columns: 150px 150px 150px 150px 150px; */
+  /* grid-template-columns: repeat(5, 150px); */
+
+  /* grid-template-rows: repeat(2, 1fr); */
+  /* grid-template-columns: repeat(5, 1fr); */
+  /* grid-template-columns: repeat(2, 125px) repeat(3, 1fr); */
+
+  grid-template-rows: repeat(2, min(200px, 50%));
+  /* grid-template-columns: repeat(5, max(120px, 15%)); */
+  /* grid-template-columns: repeat(5, minmax(150px, 200px)); */
+  /* grid-template-columns: repeat(5, clamp(150px, 20%, 200px)); */
+
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.grid-item {
+  background-color: #444;
+  text-align: center;
+  color: #ddd;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding: 12px;
+}
+
+p {
+  margin: 12px auto 24px;
+}
+
+img {
+  height: 60px;
+}
