@@ -256,6 +256,8 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Inspecting Grid Elements](https://developer.chrome.com/docs/devtools/css/grid/)
 - [Line-Based Placement](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement)
+- [Grid Template Areas](https://www.smashingmagazine.com/understanding-css-grid-template-areas)
+- [Box Alignment in Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout)
 
 # Databases
 
