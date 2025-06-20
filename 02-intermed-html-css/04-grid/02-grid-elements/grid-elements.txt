@@ -1,0 +1,93 @@
+### Position Grid Elements
+
+As seen previously, `grid-template` definitions
+will set the so-called tracks of the grid.
+
+Grid lines are implicitly created each time `grid-template` 
+is used. Grid lines can never be explicitly created.
+
+In a 3x3 grid, e.g. 
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+}
+
+There are *four* grid lines for the rows and
+*four* grid lines for the columns.
+
+That is: 
+-------------
+| A | B | C |
+-------------
+| D | E | F |
+-------------
+| G | H | I |
+-------------
+
+Here is our 3x3 grid, defined by four grid lines in both ways.
+Grid lines are used to place and position grid items.
+
+
+## Cells
+
+Spaces between grid lines which comprise a single row and column
+is called a grid cell. 
+
+By default, each child element of a grid will occupy one grid cell.
+
+In the above example, the cell marked with A occupies
+a cell at row=1, column=1. 
+Similarly, cell H occupies row=3, column=2.
+
+
+## Positioning
+
+Elements can be positioned to take up more than one cell
+using the following css properties:
+
+grid-row-start:
+grid-row-end:
+grid-column-start:
+grid-column-end:
+
+The numeric values provided into these properties
+can be explicitly derived using the devtools options
+Overlay Grid √ and Display Line Numbers √
+
+These can also be shorthanded as 
+grid-row: x / y;
+grid-column: a / b;
+
+
+## Grid Area
+
+There is technically an even shorter shorthand for
+grid-row and grid-column:
+
+grid-area
+
+The four arguments provided in grid-area are
+[grid-row-start] / [grid-column-start] / [grid-row-end] / [grid-column-end]
+
+This can be thought of as the starting point (row / col)
+and then the end point (row / col).
+
+If we really wanna go crazy, grid-area can simply be given
+a text value, and then the grid container can be given
+the css property `grid-template-areas`
+
+This property accepts a string where each cell is assigned 
+the text values given to grid elements throughout. e.g.:
+
+grid-template-areas:
+  "living-room living-room living-room living-room living-room"
+  "living-room living-room living-room living-room living-room"
+  "bedroom bedroom bathroom kitchen kitchen"
+  "bedroom bedroom bathroom kitchen kitchen"
+  "closet closet bathroom kitchen kitchen";
+
+This is interpreted cell by cell, going left-to-right then top-down.
+Empty cells can be represented by "."
+
+I personally hate this but it's useful to know I guess.
