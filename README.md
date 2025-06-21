@@ -253,12 +253,15 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 ## Grid
 - [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
 - [Flex vs Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/)
+- [CSS Grid in 13 Minutes](https://www.youtube.com/watch?v=EiNiSFIPIQE)
+- [Josh W Comeau's Guide to Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
 - [Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Inspecting Grid Elements](https://developer.chrome.com/docs/devtools/css/grid/)
 - [Line-Based Placement](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement)
 - [Grid Template Areas](https://www.smashingmagazine.com/understanding-css-grid-template-areas)
 - [Box Alignment in Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout)
 - [CSS Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#aa-css-grid-properties)
+- [`auto-fit` vs `auto-fill`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 
 # Databases
 
