@@ -1,0 +1,32 @@
+### Grid and Flexbox
+
+When should grid be used over flexbox? 
+When should flexbox be used over grid?
+
+Design, among other things, dictates this.
+
+In Content-First design, a dev has a clear vision
+of what the content should be, and the layout will come.
+This is prime flexbox territory, as flexbox would allow
+for the behavior of content to be controlled.
+
+In Layout-First design, a dev has a clear vision 
+of what the layout should be, and the content will come. 
+This is where grid shines, as developing grid tracks first 
+gives full control over layout ahead of time. 
+
+
+## Combining Flexbox and Grid
+
+With one-dimensional content, flexbox is helpful
+to control that content within a 1D flex container. 
+
+In two-dimensional content, grid allows easier use
+across defined rows and columns. 
+
+It can sometimes be most beneficial to set up a page layout
+in an overall grid display, but each grid item can behave 
+as a flex container. This way, the grid items can be 
+positioned with precise two-dimensional placement,
+while also allowing the content inside each grid item
+to be capable of freely moving around using flex. 

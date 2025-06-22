@@ -263,6 +263,12 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [CSS Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#aa-css-grid-properties)
 - [`auto-fit` vs `auto-fill`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 
+### Grid and Flexbox
+- [CSS Grid Does Not Replace Flexbox](https://css-tricks.com/css-grid-replace-flexbox/)
+- [When to Use Grid vs Flexbox](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a)
+- [Relationships between Grid and Other Layout Methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods)
+- [Flexbox30](https://www.samanthaming.com/flexbox30/)
+
 # Databases
 
 - [Relational Databases](https://computer.howstuffworks.com/question599.htm)
