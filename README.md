@@ -297,7 +297,20 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [What is a Web Framework?](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
 - [Web Frameworks (Mozilla)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks)
 
+### Web Concepts
+- [HTTP Protocol](https://code.tutsplus.com/http-the-protocol-every-web-developer-must-know-part-1--net-31177t)
+- [HTTP Request/Response](https://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html)
+- [Test URIs via Sniffer](https://testuri.org/sniffer)
+- [URL Components](https://www.mattcutts.com/blog/seo-glossary-url-definitions/)
+- [REST Controller Actions](https://www.theodinproject.com/lessons/ruby-on-rails-a-railsy-web-refresher#rest)
+- [API Overview](https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing.htm#pt1)
+- [HTTP Cookie Wiki](https://en.wikipedia.org/wiki/HTTP_cookie)
+- [All About Cookies](https://allaboutcookies.org/)
+
 ## Rails Basics
+
+### Models, Views, and Controllers
+- [Understanding MVC](https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)
 
 ## Active Record
 
