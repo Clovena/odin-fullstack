@@ -287,6 +287,16 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Rails API](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
 - [Fundamental Concepts](https://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
 
+### Backend Intro
+- [Backend Overview](https://techterms.com/definition/backend)
+- [Backend vs Frontend](https://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend)
+- [Backend Web Architecture](https://www.codecademy.com/article/back-end-architecture)
+- [Tech Stacks for Web Dev](https://rubygarage.org/blog/technology-stack-for-web-development)
+
+### Frameworks
+- [What is a Web Framework?](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
+- [Web Frameworks (Mozilla)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks)
+
 ## Rails Basics
 
 ## Active Record
