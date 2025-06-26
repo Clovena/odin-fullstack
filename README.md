@@ -282,6 +282,27 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 # Ruby on Rails
 
+- [Ruby on Rails Guides](https://guides.rubyonrails.org/)
+  - [How to Study the Rails Guides](https://www.sihui.io/how-to-study-the-rails-guides/)
+- [Rails API](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
+- [Fundamental Concepts](https://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
+
+## Rails Basics
+
+## Active Record
+
+## Assets and Navigation
+
+## Forms and Authentication
+
+## APIs
+
+## Rails Sprinkles
+
+## Mailers
+
+## Advanced Rails
+
 # Advanced HTML & CSS
 
 # JavaScript
