@@ -309,6 +309,10 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Rails Basics
 
+### Routing
+- [Rails Guides: Routing](https://guides.rubyonrails.org/routing.html)
+- [Medium: Routes and RESTful Design](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5)
+
 ### Models, Views, and Controllers
 - [Understanding MVC](https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)
 
