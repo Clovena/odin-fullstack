@@ -316,7 +316,27 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 - [Rails Guides: Routing](https://guides.rubyonrails.org/routing.html)
 - [Medium: Routes and RESTful Design](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5)
 
+### Controllers
+- [Rails Guides: Controllers](https://guides.rubyonrails.org/action_controller_overview.html)
+
+### Views
+- [Rails Guides: Layouts and Rendering](https://guides.rubyonrails.org/layouts_and_rendering.html)
+
 ## Active Record
+
+- [Rails Guides: Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
+
+### Migrations
+
+- [Rails Guides: Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+
+### Validations
+
+- [Rails Guides: Validations](https://guides.rubyonrails.org/active_record_validations.html)
+
+### Assocations
+
+- [Rails Guides: Associations](https://guides.rubyonrails.org/association_basics.html)
 
 ## Assets and Navigation
 
