@@ -340,6 +340,9 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Assets and Navigation
 
+- [Rails Guides: Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html)
+- [PropShaft](https://github.com/rails/propshaft)
+
 ## Forms and Authentication
 
 ## APIs
