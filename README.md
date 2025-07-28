@@ -345,6 +345,9 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Forms and Authentication
 
+- [Rails Guides: Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
+- [Rails Guides: Validation Errors](https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views)
+
 ## APIs
 
 ## Rails Sprinkles
