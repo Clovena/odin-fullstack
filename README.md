@@ -345,8 +345,21 @@ A portfolio of lessons, practice, and exercises in The Odin Project's advanced c
 
 ## Forms and Authentication
 
+### Forms
+
 - [Rails Guides: Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
 - [Rails Guides: Validation Errors](https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views)
+
+### Sessions
+
+- [Rails Guides: Sessions](https://guides.rubyonrails.org/action_controller_overview.html#session)
+- [Rails Guides: Controller Callbacks](https://guides.rubyonrails.org/action_controller_overview.html#controller-callbacks)
+- [How Rails Sessions Work](https://www.justinweiss.com/articles/how-rails-sessions-work/)
+
+### Authentication
+
+- [Rails Guides: HTTP Authentication](https://guides.rubyonrails.org/action_controller_advanced_topics.html#http-authentication)
+- [Devise](https://github.com/heartcombo/devise)
 
 ## APIs
 
